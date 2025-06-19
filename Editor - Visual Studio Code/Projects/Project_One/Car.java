@@ -29,29 +29,28 @@ public class Car {
         this.marca = marca;
     }
 
-    public int getModelo() {
+   public int getModelo(){
         return modelo;
-    }
+   }
 
-    public void setModelo(int modelo) {
+   public void setModelo(int modelo){
         this.modelo = modelo;
-    }
+   }
 
-    public String getColor() {
-        return color;
-    }
+   public String getColor(){
+    return color;
+   }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+   public void setColor(String color){
+    this.color = color;
+   }
 
-    public String getPlaca() {
-        return placa;
-    }
+   public String getPlaca(){
+    return placa;
+   }
 
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
-
+   public void setPlaca(String placa){
+    this.placa = placa;
+   }
 
 }

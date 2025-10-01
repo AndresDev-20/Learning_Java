@@ -25,8 +25,13 @@ public class HelloWorldExercises {
         /* Hello, my name is Andres and I am a programmer,
         so I study Java on YouTube with MoureDev */
 
-
         // 5. Imprime tu edad, tu color favorito y tu ciudad.
+        int age = 20;
+        String favoriteColor = "Red";
+        String City = "Rovira Tolima";
+        System.out.println(age);
+        System.out.println(favoriteColor);
+        System.out.println(City);
 
         // 6. Explora los diferentes System.XXX.println(); más allá de "out".
 

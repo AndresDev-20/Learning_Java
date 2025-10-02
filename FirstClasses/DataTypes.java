@@ -9,6 +9,8 @@ public class DataTypes {
         double myDouble = 1.23;
         System.out.println(myDouble);
 
+        int age = 20;
+
 
     }
 }

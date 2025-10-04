@@ -10,7 +10,7 @@ public class DataTypes {
         System.out.println(myDouble);
 
         int age = 20;
-
+        System.out.println(age);
 
     }
 }

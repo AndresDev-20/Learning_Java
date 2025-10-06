@@ -12,6 +12,13 @@ public class Operators {
         System.out.println(a % b); // Modulación
 
         // Asignación
+        a = b;
+        System.out.println(a);
 
+        a = b * 2;
+        System.out.println(a);
+
+        a += 1; // al igual podemos usar el -=, *=, /=, %=.
+        System.out.println(a);
     }
 }

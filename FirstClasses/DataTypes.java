@@ -10,6 +10,7 @@ public class DataTypes {
         System.out.println(myDouble);
 
         int age = 20;
+        String name = "Andres.dev";
 
 
     }

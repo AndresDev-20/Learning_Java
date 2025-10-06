@@ -20,5 +20,15 @@ public class Operators {
 
         a += 1; // al igual podemos usar el -=, *=, /=, %=.
         System.out.println(a);
+
+
+        // Comparación (Relacionales)
+        System.out.println(a == b); // A es igual a B por ejemplo A=1 y B=1 dara true sino dara false
+        System.out.println(a != b); // Diferente igual
+        System.out.println(a > b);  // Mayor que
+        System.out.println(a >= b); // Mayor igual
+        System.out.println(a < b); // Menor que
+        System.out.println(a <= b); // Menor igual que
+
     }
 }

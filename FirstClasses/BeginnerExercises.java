@@ -19,10 +19,15 @@ public class BeginnerExercises {
         System.out.println(program ? "Me gusta programar" : "No me gusta programar");
 
         // 5. Declara una constante con tu email.
+        final String EMAIL = "andresmarroquin887@gmail.com";
+        System.out.println(EMAIL);
 
         // 6. Crea una variable de tipo char y guárdale tu inicial.
+        char letter = 'A';
+        System.out.println(letter);
 
         // 7. Declara una variable de tipo String con tu localidad, y a continuación cambia su valor y vuelve a imprimirla.
+
 
         // 8. Crea una variable int llamada a, otra b, e imprime la suma de ambas.
 

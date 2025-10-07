@@ -27,9 +27,16 @@ public class BeginnerExercises {
         System.out.println(letter);
 
         // 7. Declara una variable de tipo String con tu localidad, y a continuación cambia su valor y vuelve a imprimirla.
-
+        String address = "Ibague - Tolima";
+        System.out.println(address);
+        address = "Rovira - Tolima";
+        System.out.println(address);
 
         // 8. Crea una variable int llamada a, otra b, e imprime la suma de ambas.
+        var a = 20;
+        var b = 33;
+        var r = a + b;
+        System.out.println(r);
 
         // 9. Imprime el tipo de dos variables creadas anteriormente.
 

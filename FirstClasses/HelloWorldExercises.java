@@ -54,7 +54,6 @@ public class HelloWorldExercises {
         System.out.printf("Usa printf: puedes imprimir variables con formato, por ejemplo: %d, %s, %.2f%n",
                 10, "cadena", 3.1416);
         // Ejemplo más claro de printf
-        int edad = 25;
         String nombre = "Yeison";
         double promedio = 4.85;
         System.out.printf("Nombre: %s | Edad: %d | Promedio: %.2f%n", nombre, edad, promedio);

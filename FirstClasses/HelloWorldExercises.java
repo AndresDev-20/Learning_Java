@@ -73,9 +73,12 @@ public class HelloWorldExercises {
         System.out.println("--------------------------------------");
 
         // 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando símbolos).
+        System.out.print("😼😼😄");
 
         // 9. Intenta ejecutar el programa sin el método main y observa el error.
+        String respuesta = "Sencillo pues me sale que no hay arranque";
 
         //10. Intenta cambiar el nombre del archivo a uno diferente del de la clase y compílalo. ¿Qué pasa?
+        String res = "Se ejecuta normal";
     }
 }

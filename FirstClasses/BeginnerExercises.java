@@ -11,8 +11,12 @@ public class BeginnerExercises {
         System.out.println(age);
 
         // 3. Crea una variable double con tu altura en metros.
+        Double altura = 1.80;
+        System.out.println(altura);
 
         // 4. Declara una variable de tipo boolean que indique si te gusta programar.
+        boolean program = true;
+        System.out.println(program ? "Me gusta programar" : "No me gusta programar");
 
         // 5. Declara una constante con tu email.
 

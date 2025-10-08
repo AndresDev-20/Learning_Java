@@ -29,5 +29,9 @@ public class Strings {
         String text = "hi my name is andres";
         System.out.println(text.toUpperCase()); // Mayúscula
         System.out.println(text.toLowerCase()); // Minúscula
+
+        // Comprobar si contiene usando contains()
+        String cadena = "Hola, Java";
+        System.out.println(cadena.toUpperCase().contains("AVA"));
     }
 }

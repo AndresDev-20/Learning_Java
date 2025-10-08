@@ -33,5 +33,14 @@ public class Strings {
         // Comprobar si contiene usando contains()
         String cadena = "Hola, Java";
         System.out.println(cadena.toUpperCase().contains("AVA"));
+
+        // Comparación
+        String names = "Yeison Andres";
+        System.out.println(names.equals("Yeison Andres")); // true
+        System.out.println(names.equals("yeison Andres")); // false por la minúscula
+        System.out.println(names.equalsIgnoreCase("Yeison andres")); // ignora minúsculas y mayúsculas
+
+
+
     }
 }

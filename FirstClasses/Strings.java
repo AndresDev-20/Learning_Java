@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Strings {
 
     public static void main(String[] args) {
@@ -23,5 +25,9 @@ public class Strings {
         System.out.println(person.substring(2)); // con esto le decimos que arranque desde el indice 2 mostrando "dres.dev"
         System.out.println(person.substring(2, 4)); // y con esto damos un inicio y un fin de lo que queremos extraer del string.
 
+        // Mayúsculas y minúsculas
+        String text = "hi my name is andres";
+        System.out.println(text.toUpperCase()); // Mayúscula
+        System.out.println(text.toLowerCase()); // Minúscula
     }
 }

@@ -9,5 +9,9 @@ public class Strings {
         String firstName = "Andres";
         String surName = "Marroquin";
         System.out.println(firstName + " " + surName);
+
+        // Hallar la longitud con length()
+        String animal = "Gato";
+        System.out.println(animal.length());
     }
 }

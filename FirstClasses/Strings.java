@@ -40,7 +40,25 @@ public class Strings {
         System.out.println(names.equals("yeison Andres")); // false por la minúscula
         System.out.println(names.equalsIgnoreCase("Yeison andres")); // ignora minúsculas y mayúsculas
 
+        // == vs equals
+        var a = "Andres";
+        var b = "Andres";
+        var c = new String("Andres");
+        System.out.println(a == b); // true
+        System.out.println(a == c); // false
+        System.out.println(a.equals(a)); // true
 
+        // Eliminamos espacios de mi string con Trim de inicio y final
+        var e = "   ahdh jhjdgef  iughf y   ";
+        System.out.println(e.trim());
+
+        // para eliminar todos los espacios podemos usar a replace() eso los remplaza por lo que deseemos
+        System.out.println(e.replace(" ", ""));
+
+        // Podemos usar a format() para meterle valores a la cadena de texto
+        int age = 20;
+        String res = String.format("Hola mi nombre es %s y tengo %d años", name, age);
+        System.out.println(res);
 
     }
 }

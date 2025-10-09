@@ -5,12 +5,38 @@ public class OperatorExercises {
     public static void main(String[] args) {
 
         // 1. Crea una variable con el resultado de cada operación aritmética.
+        int n1 = 20;
+        int n2 = 30;
+        System.out.println(n1 + n2);
+        System.out.println(n1 - n2);
+        System.out.println(n1 * n2);
+        System.out.println(n1 / n2);
+        System.out.println(n1 % n2);
+        System.out.println("--------------------------------------");
 
         // 2. Crea una variable para cada tipo de operación de asignación.
+        int a = 20;
+        System.out.println(a);
+        a += 1;
+        System.out.println(a);
+        a -= 2;
+        System.out.println(a);
+        a *= 2;
+        System.out.println(a);
+        a /= 2;
+        System.out.println(a);
+        a %= 2;
+        System.out.println(a);
 
         // 3. Imprime 3 comparaciones verdaderas con diferentes operadores de comparación.
+        System.out.println(20 == 20);
+        System.out.println(20 != 2);
+        System.out.println(20 > 10);
 
         // 4. Imprime 3 comparaciones falsas con diferentes operadores de comparación.
+        System.out.println(20 < 20);
+        System.out.println(20 != 2);
+        System.out.println(20 > 10);
 
         // 5. Utiliza el operador lógico and.
 

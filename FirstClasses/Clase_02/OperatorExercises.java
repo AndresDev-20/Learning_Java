@@ -42,10 +42,13 @@ public class OperatorExercises {
         System.out.println((5 > 9) && (2 > 1));
 
         // 6. Utiliza el operador lógico or.
+        System.out.println((5 > 9) || (2 > 1));
 
         // 7. Combina ambos operadores lógicos.
+        System.out.println((5 > 9) && (2 > 1) || 4 > 5);
 
         // 8. Añade alguna negación.
+        System.out.println(!(5 > 9) && (2 > 1));
 
         // 9. Imprime 3 ejemplos de uso de operadores unarios.
 

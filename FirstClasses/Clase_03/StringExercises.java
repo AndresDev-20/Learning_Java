@@ -5,8 +5,13 @@ public class StringExercises {
     public static void main(String[] args) {
 
         // 1. Concatena dos cadenas de texto.
+        String firstName = "Andres";
+        String lastName = "Marroquin";
+        System.out.println(firstName + " " + lastName);
 
         // 2. Muestra la longitud de una cadena de texto.
+        String text = "Hi, my name is andres and I am programmer";
+        System.out.println(text.length());
 
         // 3. Muestra el primer y último carácter de un string.
 

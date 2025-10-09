@@ -51,7 +51,17 @@ public class OperatorExercises {
         System.out.println(!(5 > 9) && (2 > 1));
 
         // 9. Imprime 3 ejemplos de uso de operadores unarios.
+        int d = 8;
+        int c = -d;
+        System.out.println(c);
+        int f = +d;
+        System.out.println(f);
+        int j = ++f;
+        System.out.println(j);
+        int l = --j;
+        System.out.println(l);
 
         // 10. Combina operadores aritméticos, de comparación y lógicos.
+        System.out.println(5 + 9 == 14 && 3 >= 3);
     }
 }

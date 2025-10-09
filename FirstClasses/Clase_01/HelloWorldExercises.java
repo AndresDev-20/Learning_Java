@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Clase_01;
 
 public class HelloWorldExercises {
 
@@ -11,9 +11,7 @@ public class HelloWorldExercises {
 
         // 3. Añade un comentario sobre lo que hace cada línea del programa.
         // creo una variable para la edad
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Ingresa tu edad: ");
-        int edad = sc.nextInt();
+        int edad = 20;
         //uso una sentencia para determinar si la persona es menor o mayor de edad
         if (edad >= 18) {
             System.out.println("Eres Mayor de edad");
@@ -77,8 +75,10 @@ public class HelloWorldExercises {
 
         // 9. Intenta ejecutar el programa sin el método main y observa el error.
         String respuesta = "Sencillo pues me sale que no hay arranque";
+        System.out.println(respuesta);
 
         //10. Intenta cambiar el nombre del archivo a uno diferente del de la clase y compílalo. ¿Qué pasa?
         String res = "Se ejecuta normal";
+        System.out.println(res);
     }
 }

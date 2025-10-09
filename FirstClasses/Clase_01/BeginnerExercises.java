@@ -1,3 +1,4 @@
+package Clase_01;
 public class BeginnerExercises {
 
     public static void main(String[] args) {
@@ -39,7 +40,10 @@ public class BeginnerExercises {
         System.out.println(r);
 
         // 9. Imprime el tipo de dos variables creadas anteriormente.
+        System.out.println(a);
+        System.out.println(address);
 
         // 10. Intenta declarar una variable sin inicializarla y luego asígnale un valor antes de imprimirla.
+        //prueba = "Andres"
     }
 }

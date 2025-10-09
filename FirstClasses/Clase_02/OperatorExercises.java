@@ -1,3 +1,5 @@
+package Clase_02;
+
 public class OperatorExercises {
 
     public static void main(String[] args) {

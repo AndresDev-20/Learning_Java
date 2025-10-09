@@ -1,5 +1,8 @@
+package Clase_02;
+
 public class Operators {
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         //Operadores en Java
         // Aritméticos

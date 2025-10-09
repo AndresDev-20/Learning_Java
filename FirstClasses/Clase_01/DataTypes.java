@@ -1,3 +1,4 @@
+package Clase_01;
 public class DataTypes {
 
     public static void main(String[] args) {
@@ -13,9 +14,11 @@ public class DataTypes {
 
         // para caracteres
         char myChar = 'a';
+        System.out.println(myChar);
 
         // booleanos
         boolean myBoolean = true;
+        System.out.println(myBoolean);
 
 
         // Como saber el tipo de dato en compilación para un dato no primitivo

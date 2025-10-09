@@ -1,3 +1,5 @@
+package Clase_03;
+
 public class StringExercises {
 
     public static void main(String[] args) {

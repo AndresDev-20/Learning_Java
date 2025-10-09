@@ -35,10 +35,11 @@ public class OperatorExercises {
 
         // 4. Imprime 3 comparaciones falsas con diferentes operadores de comparación.
         System.out.println(20 < 20);
-        System.out.println(20 != 2);
-        System.out.println(20 > 10);
+        System.out.println(20 != 20);
+        System.out.println(20 >= 50);
 
         // 5. Utiliza el operador lógico and.
+        System.out.println((5 > 9) && (2 > 1));
 
         // 6. Utiliza el operador lógico or.
 

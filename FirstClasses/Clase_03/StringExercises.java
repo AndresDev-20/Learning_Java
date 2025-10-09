@@ -14,8 +14,12 @@ public class StringExercises {
         System.out.println(text.length());
 
         // 3. Muestra el primer y último carácter de un string.
+        System.out.println(text.charAt(0));
+        System.out.println(text.charAt(text.length() - 1));
 
         // 4. Convierte a mayúsculas y minúsculas un string.
+        System.out.println(text.toUpperCase());
+        System.out.println(text.toLowerCase());
 
         // 5. Comprueba si una cadena de texto contiene una palabra concreta.
 

@@ -58,12 +58,62 @@ public class ConditionalsExercises {
         }
 
         // 6. Declara una variable con el día de la semana (1-7) y muestra su nombre con switch.
+        var day = 7;
+        switch (day){
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miércoles");
+                break;
+            case 4:
+                System.out.println("Jueves");
+                break;
+            case 5:
+                System.out.println("Viernes");
+                break;
+            case 6:
+                System.out.println("Sábado");
+                break;
+            case 7:
+                System.out.println("Domingo");
+                break;
+            default:
+                System.out.println("El dia no existe");
+                break;
+        }
 
         // 7. Simula un sistema de notas: muestra "Sobresaliente", "Aprobado" o "Suspenso" según la nota (0-100).
+        int nota = 10;
+        if (nota == 100){
+            System.out.println("Sobresaliente");
+        }else if(nota >= 70){
+            System.out.println("Aprobado");
+        }else if(nota < 70){
+            System.out.println("Suspenso");
+        }else{
+            System.out.println("Nota no admitida");
+        }
 
         // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
+        int edad = 15;
+        boolean acompañado = false;
+        if (edad >= 15 || acompañado == true){
+            System.out.println("Puedes entrar al cine");
+        }else{
+            System.out.println("Lo siento pero no puede entrar");
+        }
 
         // 9. Crea un programa que diga si una letra es vocal o consonante.
+        String letter = "b";
+        if ("AEIOUaeiou".contains(letter)){
+            System.out.println("Vocal");
+        }else{
+            System.out.println("Consonante");
+        }
 
         // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
 

@@ -1,10 +1,20 @@
 package Clase_04;
 
+import java.util.Scanner;
+
 public class ConditionalsExercises {
 
     public static void main(String[] args) {
 
-        // 1. Establece la edad de un usuario y muestra si puede votar (mayor o igual a 18).
+        // 1. Establece la edad de un usuario y muestra si puede votar (mayor o igual a 18)
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingresa tu edad: ");
+        int age = sc.nextInt();
+        if (age >= 18) {
+            System.out.println("Puedes votar porque eres mayor de edad.");
+        }else{
+            System.out.println("Lo siento eres menor de edad y no puede votar.");
+        }
 
         // 2. Declara dos números y muestra cuál es mayor, o si son iguales.
 

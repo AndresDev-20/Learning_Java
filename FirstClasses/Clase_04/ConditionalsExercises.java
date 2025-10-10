@@ -50,7 +50,12 @@ public class ConditionalsExercises {
         }
 
         // 5. Verifica si un número está en el rango de 1 a 100.
-
+        int num = 100;
+        if (num >= 1 && num <= 100) {
+            System.out.println("El numero si esta en el rango de 1 a 100");
+        }else{
+            System.out.println("El numero no esta en el rango de 1 a 100");
+        }
 
         // 6. Declara una variable con el día de la semana (1-7) y muestra su nombre con switch.
 

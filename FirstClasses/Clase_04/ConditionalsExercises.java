@@ -30,14 +30,27 @@ public class ConditionalsExercises {
         }
 
         // 3. Dado un número, verifica si es positivo, negativo o cero.
-        int n = 9;
-        switch (n) {
-            case
+        int n = -9;
+        if (n > 0) {
+            System.out.println("Es un numero positivo");
+        }else if(n < 0){
+            System.out.println("Es un numero negativo");
+        }else{
+            System.out.println("Es 0");
         }
 
         // 4. Crea un programa que diga si un número es par o impar.
+        int a = 1;
+        if (a % 2 == 0) {
+            System.out.println("El numero es Par");
+        }else if(a % 2 == 1) {
+            System.out.println("El numero es Impar");
+        }else{
+            System.out.println("Null");
+        }
 
         // 5. Verifica si un número está en el rango de 1 a 100.
+
 
         // 6. Declara una variable con el día de la semana (1-7) y muestra su nombre con switch.
 

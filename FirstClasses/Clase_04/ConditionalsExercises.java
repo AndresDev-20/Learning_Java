@@ -7,9 +7,9 @@ public class ConditionalsExercises {
     public static void main(String[] args) {
 
         // 1. Establece la edad de un usuario y muestra si puede votar (mayor o igual a 18)
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Ingresa tu edad: ");
-        int age = sc.nextInt();
+        //Scanner sc = new Scanner(System.in);
+        //System.out.print("Ingresa tu edad: ");
+        int age = 20;
         if (age >= 18) {
             System.out.println("Puedes votar porque eres mayor de edad.");
         }else{
@@ -17,8 +17,23 @@ public class ConditionalsExercises {
         }
 
         // 2. Declara dos números y muestra cuál es mayor, o si son iguales.
+        //System.out.print("Ingresa el primer numero: ");
+        int n1 = 9;
+        //System.out.print("Ingresa el segundo numero: ");
+        int n2 = 10;
+        if (n1 > n2) {
+            System.out.println("El primer numero es mayor");
+        }else if (n1 < n2) {
+            System.out.println("El segundo numero es mayor");
+        }else{
+            System.out.println("Los números son iguales");
+        }
 
         // 3. Dado un número, verifica si es positivo, negativo o cero.
+        int n = 9;
+        switch (n) {
+            case
+        }
 
         // 4. Crea un programa que diga si un número es par o impar.
 

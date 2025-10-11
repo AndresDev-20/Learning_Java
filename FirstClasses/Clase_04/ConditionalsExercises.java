@@ -119,10 +119,14 @@ public class ConditionalsExercises {
         var f = 3;
         var g = 5;
         var h = 9;
-        if (f > g) {
-            System.out.println("f es mayor que los demás");
-        }else if (g > f) {
-            System.out.println();
+        if (f > g && f > h) {
+            System.out.println("F es mayor que los demás");
+        }else if (g > f && g > h) {
+            System.out.println("G es mayor que los demás");
+        } else if (h > f && h > g) {
+            System.out.println("H es mayor que los demás");
+        } else {
+            System.out.println("Ninguno es mayor son iguales");
         }
 
     }

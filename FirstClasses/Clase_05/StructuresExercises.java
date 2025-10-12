@@ -9,6 +9,9 @@ public class StructuresExercises {
         System.out.println(array.length);
 
         // 2. Modifica uno de los valores del Array e imprime el valor del índice antes y después de modificarlo.
+        System.out.println(array[1]);
+        array[1] = "Marroquin";
+        System.out.println(array[1]);
 
         // 3. Crea un ArrayList vacío.
 

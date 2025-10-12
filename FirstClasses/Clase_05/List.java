@@ -22,8 +22,12 @@ public class List {
         System.out.println(names.get(0)); // accedemos por indice
         System.out.println(names.getFirst()); // accedemos por orden
 
-        //Modificar elementos
+        // Modificar elementos
         names.set(1, "Yeison");
+        System.out.println(names);
+
+        // Eliminar elementos
+        names.remove(1);
         System.out.println(names);
 
     }

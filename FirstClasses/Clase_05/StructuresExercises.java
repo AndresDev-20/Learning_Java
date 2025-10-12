@@ -20,6 +20,11 @@ public class StructuresExercises {
         System.out.println(colors);
 
         // 4. Añade 4 valores al ArrayList y elimina uno a continuación.
+        colors.add("Red");
+        colors.add("Blue");
+        System.out.println(colors);
+        colors.remove(1);
+        System.out.println(colors);
 
         // 5. Crea un HashSet con 2 valores diferentes.
 

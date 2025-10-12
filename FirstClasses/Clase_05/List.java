@@ -37,5 +37,7 @@ public class List {
         names.clear();
         System.out.println(names);
 
+        // Nota: Podemos ver muchos más métodos para usar en nuestras List
+
     }
 }

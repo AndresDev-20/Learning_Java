@@ -5,6 +5,8 @@ public class StructuresExercises {
     public static void main(String[] args) {
 
         // 1. Crea un Array con 5 valores e imprime su longitud.
+        String[] array = {"Andres", "Dev"};
+        System.out.println(array.length);
 
         // 2. Modifica uno de los valores del Array e imprime el valor del índice antes y después de modificarlo.
 

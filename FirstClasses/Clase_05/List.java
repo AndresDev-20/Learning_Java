@@ -30,5 +30,12 @@ public class List {
         names.remove(1);
         System.out.println(names);
 
+        // Buscar elementos
+        System.out.println(names.contains("Andres"));
+
+        // Limpiar ArrayList
+        names.clear();
+        System.out.println(names);
+
     }
 }

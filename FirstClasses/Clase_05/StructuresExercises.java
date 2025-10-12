@@ -1,5 +1,7 @@
 package Clase_05;
 
+import java.util.ArrayList;
+
 public class StructuresExercises {
 
     public static void main(String[] args) {
@@ -14,6 +16,8 @@ public class StructuresExercises {
         System.out.println(array[1]);
 
         // 3. Crea un ArrayList vacío.
+        ArrayList<String> colors = new ArrayList<>();
+        System.out.println(colors);
 
         // 4. Añade 4 valores al ArrayList y elimina uno a continuación.
 

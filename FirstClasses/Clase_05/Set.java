@@ -46,5 +46,8 @@ public class Set {
         fruits.removeAll(countries);
         System.out.println(fruits);
 
+        fruits.retainAll(countries);
+        System.out.println(fruits);
+
     }
 }

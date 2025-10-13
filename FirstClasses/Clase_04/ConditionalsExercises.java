@@ -115,7 +115,15 @@ public class ConditionalsExercises {
             System.out.println("Consonante");
         }
 
-        // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
+        // 10. Usa tres variables f, g, h y muestra cuál es el mayor de las tres.
+        var f = 3;
+        var g = 5;
+        var h = 9;
+        if (f > g) {
+            System.out.println("f es mayor que los demás");
+        }else if (g > f) {
+            System.out.println();
+        }
 
     }
 }

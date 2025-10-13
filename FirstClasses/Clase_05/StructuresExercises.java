@@ -1,6 +1,7 @@
 package Clase_05;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class StructuresExercises {
 
@@ -27,6 +28,10 @@ public class StructuresExercises {
         System.out.println(colors);
 
         // 5. Crea un HashSet con 2 valores diferentes.
+        HashSet<String> animals = new HashSet<>();
+        animals.add("Gato");
+        animals.add("Perro");
+        System.out.println(animals);
 
         // 6. Añade un nuevo valor repetido y otro sin repetir al HashSet.
 

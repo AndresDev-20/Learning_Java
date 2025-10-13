@@ -8,6 +8,7 @@ public class Set {
 
         // Declaración y creación
         HashSet<String> fruits = new HashSet<>();
+        HashSet<Integer> numbers = new HashSet<>();
         System.out.println(fruits);
 
         // Tamaño
@@ -16,8 +17,13 @@ public class Set {
         // Añadir elementos
         fruits.add("Apple");
         fruits.add("Banana");
+        fruits.add("Apple");
         fruits.add("Strawberry");
         System.out.println(fruits);
+
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
 
         // Eliminar elementos
         fruits.remove("Apple");
@@ -25,5 +31,20 @@ public class Set {
 
         // Buscar elementos
         System.out.println(fruits.contains(("Banana")));
+
+        // Conjuntos
+         //fruits.addAll(numbers); Error por incompatibilidad de datos
+        var countries = new HashSet<String>();
+        countries.add("Banana");
+        countries.add("Portugal");
+        countries.add("España");
+        countries.add("Japón");
+
+        fruits.addAll(countries);
+        System.out.println(fruits);
+
+        fruits.removeAll(countries);
+        System.out.println(fruits);
+
     }
 }

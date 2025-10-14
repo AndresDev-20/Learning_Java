@@ -39,6 +39,8 @@ public class StructuresExercises {
         System.out.println(animals);
 
         // 7. Elimina uno de los elementos del HashSet.
+        animals.remove("Gato");
+        System.out.println(animals);
 
         // 8. Crea un HashMap donde la clave sea un nombre y el valor el número de teléfono. Añade tres contactos.
 

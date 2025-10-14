@@ -1,6 +1,7 @@
 package Clase_05;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class StructuresExercises {
@@ -43,7 +44,11 @@ public class StructuresExercises {
         System.out.println(animals);
 
         // 8. Crea un HashMap donde la clave sea un nombre y el valor el número de teléfono. Añade tres contactos.
-
+        HashMap<String, Long> data = new HashMap<>();
+        data.put("Ana", 3227223062L);
+        data.put("Bella", 3227243062L);
+        data.put("Luz", 3227228062L);
+        System.out.println(data);
 
         // 9. Modifica uno de los contactos y elimina otro.
 

@@ -17,7 +17,11 @@ public class Maps {
         // Acceder a los elementos
         System.out.println(users.get("Name"));
 
-        //
+        // Verificar elementos
+        System.out.println(users.containsKey("Name"));
+        System.out.println(users.containsKey("Dev"));
+        System.out.println(users.containsValue("Andres.dev"));
+
 
     }
 }

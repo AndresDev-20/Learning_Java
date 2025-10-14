@@ -44,6 +44,7 @@ public class StructuresExercises {
 
         // 8. Crea un HashMap donde la clave sea un nombre y el valor el número de teléfono. Añade tres contactos.
 
+
         // 9. Modifica uno de los contactos y elimina otro.
 
         // 10. Dado un Array, transfórmalo en un ArrayList, a continuación en un HashSet y finalmente en un HashMap con clave y valor iguales.

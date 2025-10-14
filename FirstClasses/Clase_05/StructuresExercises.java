@@ -51,6 +51,9 @@ public class StructuresExercises {
         System.out.println(data);
 
         // 9. Modifica uno de los contactos y elimina otro.
+        data.replace("Ana", 3015567890L);
+        data.remove("Bella");
+        System.out.println(data);
 
         // 10. Dado un Array, transfórmalo en un ArrayList, a continuación en un HashSet y finalmente en un HashMap con clave y valor iguales.
     }

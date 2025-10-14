@@ -22,6 +22,13 @@ public class Maps {
         System.out.println(users.containsKey("Dev"));
         System.out.println(users.containsValue("Andres.dev"));
 
+        // Eliminar elementos
+        users.remove("Name");
+        System.out.println(users);
+
+        // Limpiar HashMap
+        users.clear();
+        System.out.println(users);
 
     }
 }

@@ -34,6 +34,9 @@ public class StructuresExercises {
         System.out.println(animals);
 
         // 6. Añade un nuevo valor repetido y otro sin repetir al HashSet.
+        animals.add("Gato");
+        animals.add("Loro");
+        System.out.println(animals);
 
         // 7. Elimina uno de los elementos del HashSet.
 

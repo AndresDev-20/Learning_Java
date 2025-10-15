@@ -42,7 +42,7 @@ public class Loops {
         users.put("Phone", "3227222011");
 
         for (Map.Entry<String, String> user: users.entrySet() ){
-            System.out.println(user);
+            System.out.println(user.getKey()); // .getValue()
         }
     }
 }

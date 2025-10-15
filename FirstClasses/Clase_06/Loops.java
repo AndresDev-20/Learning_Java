@@ -12,7 +12,7 @@ public class Loops {
 
         // - for controlado por controlador
         for (int i = 0; i < 5; i++){
-            System.out.println("Hola, Java!");
+            System.out.println("Hola, Java! -> desde for tradicional");
         }
 
         String[] names = {"Andres", "Marroquin", "Bernal"};
@@ -20,7 +20,7 @@ public class Loops {
             System.out.println(names[i]);
         }
 
-        // for-each
+        // - for-each
         for (String name: names){
             System.out.println(name);
         }
@@ -43,6 +43,13 @@ public class Loops {
 
         for (Map.Entry<String, String> user: users.entrySet() ){
             System.out.println(user.getKey()); // .getValue()
+        }
+
+        // - while
+        int i = 0;
+        while (i < 5){
+            System.out.println("Hola, Java -> desde while");
+            i++;
         }
     }
 }

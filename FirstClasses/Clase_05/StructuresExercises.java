@@ -1,8 +1,10 @@
 package Clase_05;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 
 public class StructuresExercises {
 
@@ -55,6 +57,21 @@ public class StructuresExercises {
         data.remove("Bella");
         System.out.println(data);
 
-        // 10. Dado un Array, transfórmalo en un ArrayList, a continuación en un HashSet y finalmente en un HashMap con clave y valor iguales.
+        // 10. Dado un Aray, transfórmalo en un ArrayList, a continuación en un HashSet y finalmente en un HashMap con clave y valor iguales.
+        String[] arr = {"Andres", "Alan", "Alisson"};
+
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(arr));
+        System.out.println("Lista: " + list);
+
+        HashSet<String> set = new HashSet<>(List.copyOf(list));
+        System.out.println("Conjunto(Set): " + set);
+
+        HashMap<Integer, String> map = new HashMap<>();
+
+        for (String elemet : set){
+            map.put(elemet.length(), elemet);
+        }
+         System.out.println(map);
+
     }
 }

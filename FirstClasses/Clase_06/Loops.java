@@ -79,6 +79,12 @@ public class Loops {
             System.out.println("Respuesta de bucle con break: " + name);
         }
 
-
+        // - continue
+        for (int index = 0; index < 5; index++){
+            if (index == 3) {
+                continue;
+            }
+            System.out.println(index);
+        }
     }
 }

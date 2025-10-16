@@ -61,5 +61,12 @@ public class Loops {
             }
             i++;
         }
+
+        // - do-while
+        i = 0;
+        do {
+            System.out.println("Hola, Java");
+            i++;
+        } while (i < 0);
     }
 }

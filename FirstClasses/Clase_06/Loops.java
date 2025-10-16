@@ -51,5 +51,15 @@ public class Loops {
             System.out.println("Hola, Java -> desde while");
             i++;
         }
+
+        i = 0;
+        Boolean find = false;
+        while (!find) {
+            System.out.println(names[i]);
+            if (names[i].equals("Marroquin")){
+                find = true;
+            }
+            i++;
+        }
     }
 }

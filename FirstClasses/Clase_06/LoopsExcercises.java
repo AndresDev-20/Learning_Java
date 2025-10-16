@@ -1,5 +1,7 @@
 package Clase_06;
 
+import java.util.ArrayList;
+
 public class LoopsExcercises {
 
     public static void main(String[] args) {
@@ -11,6 +13,15 @@ public class LoopsExcercises {
         }
 
         // 2. Usa do-while para mostrar todos los valores de un ArrayList.
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("Red");
+        colors.add("Blue");
+        colors.add("Green");
+        int index = 0;
+        do {
+            System.out.println(colors.get(index));
+            index++;
+        } while (index < colors.size());
 
         // 3. Imprime los múltiplos de 5 del 1 al 50 usando for.
 

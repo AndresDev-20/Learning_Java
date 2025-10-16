@@ -68,5 +68,17 @@ public class Loops {
             System.out.println("Hola, Java");
             i++;
         } while (i < 0);
+
+
+        // Control de Bucles
+        // - break
+        for (String name: names){
+            if (name.equals("Marroquin")){
+                break;
+            }
+            System.out.println("Respuesta de bucle con break: " + name);
+        }
+
+
     }
 }

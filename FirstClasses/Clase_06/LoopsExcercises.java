@@ -4,6 +4,11 @@ public class LoopsExcercises {
 
     public static void main(String[] args) {
         // 1. Imprime los números del 1 al 10 usando while.
+        int i = 1;
+        while (i <= 10) {
+            System.out.println("Numero: " + i);
+            i++;
+        }
 
         // 2. Usa do-while para mostrar todos los valores de un ArrayList.
 

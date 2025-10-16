@@ -24,6 +24,12 @@ public class LoopsExcercises {
         } while (index < colors.size());
 
         // 3. Imprime los múltiplos de 5 del 1 al 50 usando for.
+        System.out.println("Múltiplos de 5 del 1 al 50:");
+        for (int j = 1; j <= 50; j++) {
+            if (j % 5 == 0) {
+                System.out.println("→ " + j);
+            }
+        }
 
         // 4. Recorre un Array de 5 números e imprime la suma total.
 

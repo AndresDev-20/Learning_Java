@@ -1,6 +1,9 @@
 package Clase_06;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 public class LoopsExcercises {
 
@@ -47,7 +50,21 @@ public class LoopsExcercises {
         }
 
         // 6. Usa for-each para recorrer un HashSet y un HashMap.
+        HashSet<String> teams = new HashSet<>();
+        teams.add("Equipo 1");
+        teams.add("Equipo 2");
+        teams.add("Equipo 3");
+        for (String team: teams){
+            System.out.println(team);
+        }
 
+        HashMap<String, String> clothes = new HashMap<>();
+        clothes.put("Prenda 1", "Pantalon");
+        clothes.put("Prenda 2", "Conjunto");
+        clothes.put("Prenda 3", "Camiseta");
+        for (Map.Entry<String, String> clothe: clothes.entrySet()){
+            System.out.println("Clave: " + clothe.getKey() + "  " +  "Valor: " + clothe.getValue());
+        }
 
         // 7. Imprime los números del 10 al 1 (descendiente) con un bucle for.
 

@@ -67,6 +67,9 @@ public class LoopsExcercises {
         }
 
         // 7. Imprime los números del 10 al 1 (descendiente) con un bucle for.
+        for (int c = 10; c >= 1; c--){
+            System.out.println(c);
+        }
 
         // 8. Usa continue para saltar los múltiplos de 3 del 1 al 20.
 

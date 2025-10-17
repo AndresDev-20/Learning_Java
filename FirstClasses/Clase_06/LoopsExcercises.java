@@ -32,6 +32,13 @@ public class LoopsExcercises {
         }
 
         // 4. Recorre un Array de 5 números e imprime la suma total.
+        int[] numbers = {10, 50, 31, 41, 52};
+        int result = 0;
+        for (int a = 0; a < numbers.length; a++){
+            result = result + numbers[a];
+            System.out.println(numbers[a]);
+        }
+        System.out.println("Resultado de la suma del array: " + result);
 
         // 5. Usa un for para recorrer un Array y mostrar sus valores.
 

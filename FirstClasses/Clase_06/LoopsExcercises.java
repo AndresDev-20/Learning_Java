@@ -72,6 +72,12 @@ public class LoopsExcercises {
         }
 
         // 8. Usa continue para saltar los múltiplos de 3 del 1 al 20.
+        for (int d = 1; d <= 20; d++){
+            if (d % 3 == 0){
+                continue;
+            }
+            System.out.println(d);
+        }
 
         // 9. Usa break para detener un bucle cuando encuentres un número negativo en un array.
 

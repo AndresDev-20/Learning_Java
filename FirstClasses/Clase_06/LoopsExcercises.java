@@ -41,6 +41,10 @@ public class LoopsExcercises {
         System.out.println("Resultado de la suma del array: " + result);
 
         // 5. Usa un for para recorrer un Array y mostrar sus valores.
+        String[] cars = {"Toyota", "Nissan", "Mercedes"};
+        for (String car: cars) {
+            System.out.println(car);
+        }
 
         // 6. Usa for-each para recorrer un HashSet y un HashMap.
 

@@ -80,6 +80,13 @@ public class LoopsExcercises {
         }
 
         // 9. Usa break para detener un bucle cuando encuentres un número negativo en un array.
+        int[] arr = {1, 2, 2, 3, 1, -2, 4, 5, 6, 4};
+        for (int e = 0; e <= arr.length; e++){
+            if (arr[e] < 0) {
+                break;
+            }
+            System.out.println(arr[e]);
+        }
 
         // 10. Crea un programa que calcule el factorial de un número dado.
     }

@@ -42,11 +42,12 @@ public class LoopsExcercises {
 
         // 5. Usa un for para recorrer un Array y mostrar sus valores.
         String[] cars = {"Toyota", "Nissan", "Mercedes"};
-        for (String car: cars) {
-            System.out.println(car);
+        for (int b = 0; b < cars.length; b++) {
+            System.out.println(cars[b]);
         }
 
         // 6. Usa for-each para recorrer un HashSet y un HashMap.
+
 
         // 7. Imprime los números del 10 al 1 (descendiente) con un bucle for.
 

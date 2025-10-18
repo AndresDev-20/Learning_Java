@@ -89,7 +89,12 @@ public class LoopsExcercises {
         }
 
         // 10. Crea un programa que calcule el factorial de un número dado.
-         int n = 10;
-        for ()
+         int n = 45;
+        int factorial = 1;
+        for (int f = n; f >= 1; f--){
+            System.out.println("res: " + f);
+            factorial = factorial * f;
+        }
+        System.out.println("El factorial de " + n + " es: " + factorial);
     }
 }

@@ -89,5 +89,7 @@ public class LoopsExcercises {
         }
 
         // 10. Crea un programa que calcule el factorial de un número dado.
+         int n = 10;
+        for ()
     }
 }

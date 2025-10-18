@@ -5,10 +5,15 @@ public class Functions {
     public static void main(String[] args) {
         // Funciones
         for (int i = 0; i < 5; i++) {
-            System.out.println("Hola mundo");
+            sendEmail();
         }
 
         // ...
-        System.out.println("Hola Mundo!");
+        sendEmail();
+    }
+
+    // Función sin parámetros ni retorno
+    public static void sendEmail() {
+        System.out.println("Hola mundo");
     }
 }

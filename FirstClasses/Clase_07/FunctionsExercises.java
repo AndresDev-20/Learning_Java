@@ -10,6 +10,7 @@ public class FunctionsExercises {
         greetingPerson("Andres");
 
         // 3. Haz un método que reciba dos números enteros y devuelva su resta.
+        System.out.println(subtraction(88, 33));
 
         // 4. Crea un método que calcule el cuadrado de un número (n * n).
 
@@ -32,6 +33,10 @@ public class FunctionsExercises {
 
     public static void greetingPerson(String name){
         System.out.println("Hello " + name + ", " + "welcome to class." );
+    }
+
+    public static int subtraction(int n1, int n2) {
+        return n1 - n2;
     }
 
 }

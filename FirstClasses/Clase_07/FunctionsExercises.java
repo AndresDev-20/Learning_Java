@@ -21,6 +21,7 @@ public class FunctionsExercises {
         System.out.println(parImpar(3));
 
         // 6. Crea un método que reciba una edad y retorne true si es mayor de edad (y false en caso contrario).
+        System.out.println(ageDetermination(20));
 
         // 7. Implementa una función que reciba una cadena y retorne su longitud.
 
@@ -52,6 +53,13 @@ public class FunctionsExercises {
             return "Es Par";
         }
         return "Es Impar";
+    }
+
+    public static boolean ageDetermination(int age){
+        if (age < 18){
+            return false;
+        }
+        return true;
     }
 
 }

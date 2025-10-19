@@ -16,6 +16,9 @@ public class FunctionsExercises {
         System.out.println(squareNumber(44));
 
         // 5. Escribe una función que reciba un número y diga si es par o impar.
+        System.out.println(parImpar(0));
+        System.out.println(parImpar(2));
+        System.out.println(parImpar(3));
 
         // 6. Crea un método que reciba una edad y retorne true si es mayor de edad (y false en caso contrario).
 
@@ -42,6 +45,13 @@ public class FunctionsExercises {
 
     public static int squareNumber(int num) {
         return num * num;
+    }
+
+    public static String parImpar(int number) {
+        if (number % 2 == 0){
+            return "Es Par";
+        }
+        return "Es Impar";
     }
 
 }

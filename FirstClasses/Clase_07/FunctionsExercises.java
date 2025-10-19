@@ -7,6 +7,7 @@ public class FunctionsExercises {
         welcomeCurse();
 
         // 2. Escribe una función que reciba un nombre como parámetro y salude a esa persona.
+        greetingPerson("Andres");
 
         // 3. Haz un método que reciba dos números enteros y devuelva su resta.
 
@@ -29,6 +30,8 @@ public class FunctionsExercises {
         System.out.println("¡Te doy la bienvenida al curso de Java desde cero!");
     }
 
-    public static
+    public static void greetingPerson(String name){
+        System.out.println("Hello " + name + ", " + "welcome to class." );
+    }
 
 }

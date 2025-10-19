@@ -39,7 +39,7 @@ public class Functions {
 
     public static void sedEmailToUser(ArrayList<String> emails) {
         for (String email: emails) {
-            System.out.println("Se envia el emaiol a: " + email);
+            System.out.println("Se envía el email a: " + email);
         }
     }
 
@@ -48,7 +48,7 @@ public class Functions {
         if (email.isEmpty()){
             return false;
         }
-        System.out.println("Se envia el email " + email);
+        System.out.println("Se envía el email " + email);
         return true;
     }
 }

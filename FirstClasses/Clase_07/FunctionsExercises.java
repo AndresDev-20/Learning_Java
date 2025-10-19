@@ -4,6 +4,7 @@ public class FunctionsExercises {
 
     public static void main(String[] args) {
         // 1. Crea una función que imprima "¡Te doy la bienvenida al curso de Java desde cero!".
+        welcomeCurse();
 
         // 2. Escribe una función que reciba un nombre como parámetro y salude a esa persona.
 
@@ -23,4 +24,11 @@ public class FunctionsExercises {
 
         // 10. Crea una función que reciba un ArrayList<String> y lo recorra mostrando cada elemento.
     }
+
+    public static void welcomeCurse() {
+        System.out.println("¡Te doy la bienvenida al curso de Java desde cero!");
+    }
+
+    public static
+
 }

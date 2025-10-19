@@ -24,6 +24,7 @@ public class FunctionsExercises {
         System.out.println(ageDetermination(20));
 
         // 7. Implementa una función que reciba una cadena y retorne su longitud.
+        System.out.println(stringLength("Andres.dev"));
 
         //  8. Crea un método que reciba un array de enteros, calcula su media y lo retorna.
 
@@ -55,11 +56,16 @@ public class FunctionsExercises {
         return "Es Impar";
     }
 
-    public static boolean ageDetermination(int age){
+    public static boolean ageDetermination(int age) {
         if (age < 18){
             return false;
         }
         return true;
+    }
+
+    public static int stringLength(String str) {
+        var res = str.length();
+        return res;
     }
 
 }

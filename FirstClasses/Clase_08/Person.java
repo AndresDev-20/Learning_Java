@@ -14,6 +14,6 @@ public class Person {
 
     // Métodos
     public void sayHello() {
-        System.out.println("Hello, I am " + name + " and I'm " + age);
+        System.out.println("Hello, I am " + this.name + " and I'm " + this.age + " years.");
     }
 }

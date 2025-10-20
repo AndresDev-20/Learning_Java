@@ -10,6 +10,9 @@ public class Classes {
         // person.age = 20;
 
         person.sayHello();
+
+        var person2 = new Person("Yeison.dev", 20);
+        person2.sayHello();
     }
 }
 

@@ -8,6 +8,6 @@ public class Person {
 
     // Métodos
     public void sayHello() {
-        System.out.println("Hello, I am " + name " y tengo " + age);
+        System.out.println("Hello, I am " + name + " and I'm " + age);
     }
 }

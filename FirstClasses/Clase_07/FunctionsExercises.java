@@ -36,6 +36,7 @@ public class FunctionsExercises {
         System.out.println(arrayMeasure(arr));
 
         // 9. Escribe un método que reciba un número y retorna su factorial.
+        System.out.println(factorialNumber(7));
 
         // 10. Crea una función que reciba un ArrayList<String> y lo recorra mostrando cada elemento.
     }
@@ -81,6 +82,14 @@ public class FunctionsExercises {
             sum = sum + numbers[i];
         }
         return (double) sum / numbers.length;
+    }
+
+    public static int factorialNumber(int number) {
+        int factorial = 1;
+        for (int i = number; i >= 1; i--){
+            factorial = factorial * i;
+        }
+        return factorial;
     }
 
 }

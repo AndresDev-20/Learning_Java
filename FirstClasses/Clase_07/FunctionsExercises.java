@@ -1,5 +1,7 @@
 package Clase_07;
 
+import java.util.ArrayList;
+
 public class FunctionsExercises {
 
     public static void main(String[] args) {
@@ -39,6 +41,11 @@ public class FunctionsExercises {
         System.out.println(factorialNumber(7));
 
         // 10. Crea una función que reciba un ArrayList<String> y lo recorra mostrando cada elemento.
+        var list = new ArrayList<String>();
+        list.add("Andres");
+        list.add("Alan");
+        list.add("Aliss");
+        traverseArraylist(list);
     }
 
     public static void welcomeCurse() {
@@ -90,6 +97,12 @@ public class FunctionsExercises {
             factorial = factorial * i;
         }
         return factorial;
+    }
+
+    public static void traverseArraylist(ArrayList<String> names) {
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println(names.get(i));
+        }
     }
 
 }

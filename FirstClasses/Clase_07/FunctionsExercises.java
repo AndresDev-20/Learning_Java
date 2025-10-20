@@ -27,6 +27,13 @@ public class FunctionsExercises {
         System.out.println(stringLength("Andres.dev"));
 
         //  8. Crea un método que reciba un array de enteros, calcula su media y lo retorna.
+        int[] arr = new int[5];
+        arr[0] = 2;
+        arr[1] = 4;
+        arr[2] = 8;
+        arr[3] = 31;
+        arr[4] = 12;
+        System.out.println(arrayMeasure(arr));
 
         // 9. Escribe un método que reciba un número y retorna su factorial.
 
@@ -66,6 +73,14 @@ public class FunctionsExercises {
     public static int stringLength(String str) {
         var res = str.length();
         return res;
+    }
+
+    public static double arrayMeasure(int[] numbers) {
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++){
+            sum = sum + numbers[i];
+        }
+        return (double) sum / numbers.length;
     }
 
 }

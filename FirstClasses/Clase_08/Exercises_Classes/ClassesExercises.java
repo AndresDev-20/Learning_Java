@@ -23,6 +23,11 @@ public class ClassesExercises {
         car.showData();
 
         // 5. Crea una clase Student con atributo score y un método que diga si aprobó (mayor o igual a 60).
+        Students student = new Students("Andres.dev", 90);
+        System.out.println(student.qualification());
+
+        Students student2 = new Students("Alan", 50);
+        System.out.println(student2.qualification());
 
         // 6. Crea una clase BankAccount con atributo balance y un método deposit() que sume el saldo.
 

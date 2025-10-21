@@ -14,8 +14,13 @@ public class ClassesExercises {
         dog.Bark();
 
         // 3. Añade un constructor a la clase Book que reciba title y author.
+        var book2 = new Book("Una pena en vida", "Juan namgenio");
+        System.out.println(book2.title);
+        System.out.println(book2.autor);
 
         // 4. Crea una clase Car con atributos brand y model y un método showData().
+        Car car = new Car("Toyota", 2005);
+        car.showData();
 
         // 5. Crea una clase Student con atributo score y un método que diga si aprobó (mayor o igual a 60).
 

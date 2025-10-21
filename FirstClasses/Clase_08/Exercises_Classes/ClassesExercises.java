@@ -36,6 +36,9 @@ public class ClassesExercises {
         bankAccount.showBalance();
 
         // 7. Crea una clase Rectangle con métodos para calcular el área y el perímetro.
+        Rectangle rectangle = new Rectangle(4, 8);
+        System.out.println(rectangle.Area());
+        System.out.println(rectangle.Perimetro());
 
         // 8. Crea una clase Worker que reciba nombre y salario, y un método para mostrar su salario.
 

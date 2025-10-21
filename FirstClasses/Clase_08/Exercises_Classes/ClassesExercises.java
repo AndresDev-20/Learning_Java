@@ -30,6 +30,10 @@ public class ClassesExercises {
         System.out.println(student2.qualification());
 
         // 6. Crea una clase BankAccount con atributo balance y un método deposit() que sume el saldo.
+        BankAccount bankAccount = new BankAccount(2000.00);
+        bankAccount.showBalance();
+        bankAccount.deposit(3300.00);
+        bankAccount.showBalance();
 
         // 7. Crea una clase Rectangle con métodos para calcular el área y el perímetro.
 

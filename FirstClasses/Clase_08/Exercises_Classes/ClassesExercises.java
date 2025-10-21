@@ -41,6 +41,8 @@ public class ClassesExercises {
         System.out.println(rectangle.Perimetro());
 
         // 8. Crea una clase Worker que reciba nombre y salario, y un método para mostrar su salario.
+        Worker worker = new Worker("Andres.dev",2000.00);
+        System.out.println(worker.getSalary());
 
         // 9. Crea varios objetos Person y guárdalos en un ArrayList.
 

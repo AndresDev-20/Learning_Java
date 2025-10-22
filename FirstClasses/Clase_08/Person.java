@@ -3,7 +3,7 @@ package Clase_08;
 public class Person {
 
     // Atributos
-    String name;
+    protected String name;
     int age;
 
     // Constructor

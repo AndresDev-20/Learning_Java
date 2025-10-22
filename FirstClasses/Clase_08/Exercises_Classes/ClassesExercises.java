@@ -50,5 +50,7 @@ public class ClassesExercises {
         System.out.println(person.getPerson());
 
         // 10. Crea una clase Product y un método que aplique un descuento sobre su precio.
+        Product product = new Product("Xiaomi 11Tpro", 2100000.00, "30%");
+        product.Discount();
     }
 }

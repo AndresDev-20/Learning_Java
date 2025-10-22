@@ -15,6 +15,10 @@ public class AccessModifiersExercises {
         System.out.println(person.getAge());
 
         // 2. Crea una clase Product con el atributo privado price. Añade el método setPrice(double price) que solo permita precios mayores a 0.
+        Product product = new Product("Asus Tuf Gamming F15", 7830000.00);
+        System.out.println(product.getPrice());
+        product.setPrice(8720000.00);
+        System.out.println(product.getPriceNew());
 
         // 3. Crea una clase BankAccount con el atributo privado balance. Implementa los métodos deposit(double amount) y withdraw(double amount) que validen las cantidades correctamente.
 

@@ -45,6 +45,9 @@ public class ClassesExercises {
         System.out.println(worker.getSalary());
 
         // 9. Crea varios objetos Person y guárdalos en un ArrayList.
+        Person person = new Person("Yeison Andres", "Marroquin Bernal", "Software Engineer");
+        person.setPerson();
+        System.out.println(person.getPerson());
 
         // 10. Crea una clase Product y un método que aplique un descuento sobre su precio.
     }

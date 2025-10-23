@@ -21,6 +21,16 @@ public class AccessModifiersExercises {
         System.out.println(product.getPriceNew());
 
         // 3. Crea una clase BankAccount con el atributo privado balance. Implementa los métodos deposit(double amount) y withdraw(double amount) que validen las cantidades correctamente.
+        // Crear una cuenta con un saldo inicial
+        BankAccount bankAccount = new BankAccount(7800000.00);
+        // Mostrar el saldo inicial
+        System.out.println("💰 Saldo inicial: " + bankAccount.getBalance());
+        // Realizar un depósito
+        bankAccount.deposit(3000000.00);
+        System.out.println("💰 Saldo después del depósito: " + bankAccount.getBalance());
+        // Realizar un retiro
+        bankAccount.withdraw(5000000.00);
+        System.out.println("💰 Saldo después del retiro: " + bankAccount.getBalance());
 
         // 4. Crea una clase Book con el atributo privado title. Permite leerlo con el método getTitle() pero no modificarlo (sin setTitle()). El título debe asignarse solo por el constructor.
 

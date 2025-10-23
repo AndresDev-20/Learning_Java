@@ -64,6 +64,10 @@ public class AccessModifiersExercises {
         System.out.println("El area del nuevo rectangulo es: " + rectangle.calculateArea());
 
         // 9. Crea una clase Student con el atributo privado grade. Agrega los métodos setGrade(int grade) y isPassed() que retorne true si la nota es mayor o igual a 60.
+        Student student = new Student(80.0);
+        System.out.println(student.isPassed() ? "Aprobo" : "No Aprobo");
+        student.setGrade(30.0);
+        System.out.println(student.isPassed() ? "Aprobo" : "No Aprobo");
 
         // 10. Crea una clase Car con el atributo privado speed. Agrega los métodos accelerate(int amount) que aumente la velocidad (máximo 120) y brake(int amount) que reduzca la velocidad (mínimo 0).
     }

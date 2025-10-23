@@ -51,6 +51,10 @@ public class AccessModifiersExercises {
         System.out.println(user.checkPassword("Amaterasu"));
 
         // 7. Crea una clase Employee con el atributo privado salary. Agrega el método raiseSalary(double percent) que solo permita aumentos positivos.
+        Employee employee = new Employee(400000.00);
+        System.out.println("Salario actual: " + employee.getSalary());
+        employee.raiseSalary(10);
+        System.out.println("Salario con aumento: " + employee.getSalary());
 
         // 8. Crea una clase Rectangle con los atributos privados width y height. Agrega setters y el método calculateArea() que devuelva el resultado de width * height.
 

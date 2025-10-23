@@ -57,6 +57,11 @@ public class AccessModifiersExercises {
         System.out.println("Salario con aumento: " + employee.getSalary());
 
         // 8. Crea una clase Rectangle con los atributos privados width y height. Agrega setters y el método calculateArea() que devuelva el resultado de width * height.
+        Rectangle rectangle = new Rectangle(29, 20);
+        System.out.println("El area del rectangulo es: " + rectangle.calculateArea());
+        rectangle.setWidth(33);
+        rectangle.setHeight(22);
+        System.out.println("El area del nuevo rectangulo es: " + rectangle.calculateArea());
 
         // 9. Crea una clase Student con el atributo privado grade. Agrega los métodos setGrade(int grade) y isPassed() que retorne true si la nota es mayor o igual a 60.
 

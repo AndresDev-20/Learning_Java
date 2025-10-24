@@ -15,5 +15,10 @@ public class inheritance {
         public Animal(String name) {
             this.name = name;
         }
+
+        // Métodos
+        public void eat() {
+            System.out.println("El animal " + this.name + " Esta comiendo");
+        }
     }
 }

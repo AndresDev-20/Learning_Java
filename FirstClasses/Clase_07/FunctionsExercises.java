@@ -13,6 +13,7 @@ public class FunctionsExercises {
         System.out.println(subtraction(88, 33));
 
         // 4. Crea un método que calcule el cuadrado de un número (n * n).
+        System.out.println(squareNumber(4));
 
         // 5. Escribe una función que reciba un número y diga si es par o impar.
 
@@ -37,6 +38,10 @@ public class FunctionsExercises {
 
     public static int subtraction(int n1, int n2) {
         return n1 - n2;
+    }
+
+    public static int squareNumber(int num) {
+        return num * num;
     }
 
 }

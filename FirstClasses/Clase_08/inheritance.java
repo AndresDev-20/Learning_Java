@@ -10,10 +10,12 @@ public class inheritance {
     public static class Animal {
         // Atributos
         private String name;
+        private String rasa;
 
         // Constructor
-        public Animal(String name) {
+        public Animal(String name, String rasa) {
             this.name = name;
+            this.rasa = rasa;
         }
 
         // Métodos
@@ -24,16 +26,28 @@ public class inheritance {
 
     public static class Dog extends Animal {
         // Atributos
-        String rasa;
+        String sonido;
         // Constructor
-        public Dog(String name, String rasa) {
-            super(name);
-            this.rasa = rasa;
+        public Dog(String name, String rasa, String sonido) {
+            super(name, rasa);
+            this.sonido = sonido;
         }
         // Métodos
         public void ladrar(){
             System.out.println("Wuaoooo, soy un " + this.rasa );
         }
+    }
 
+    public static class Cat extends Animal {
+        // Atributos
+
+        // Constructor
+        public Cat(String name, String rasa) {
+            super(name, rasa);
+        }
+        //Metodos
+        public void maullido(){
+            System.out.println("Miauuuuuu");
+        }
     }
 }

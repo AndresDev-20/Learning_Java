@@ -21,4 +21,19 @@ public class inheritance {
             System.out.println("El animal " + this.name + " Esta comiendo");
         }
     }
+
+    public static class Dog extends Animal {
+        // Atributos
+        String rasa;
+        // Constructor
+        public Dog(String name, String rasa) {
+            super(name);
+            this.rasa = rasa;
+        }
+        // Métodos
+        public void ladrar(){
+            System.out.println("Wuaoooo, soy un " + this.rasa );
+        }
+
+    }
 }

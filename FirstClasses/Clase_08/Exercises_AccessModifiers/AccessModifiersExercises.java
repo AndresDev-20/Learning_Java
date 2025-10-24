@@ -70,5 +70,12 @@ public class AccessModifiersExercises {
         System.out.println(student.isPassed() ? "Aprobo" : "No Aprobo");
 
         // 10. Crea una clase Car con el atributo privado speed. Agrega los métodos accelerate(int amount) que aumente la velocidad (máximo 120) y brake(int amount) que reduzca la velocidad (mínimo 0).
+        Car car = new Car(100);
+        System.out.println("La velocidad estable es: " + car.getSpeed() + " Kilometros por hora");
+        car.accelerate(30);
+        System.out.println("La velocidad aumento a: " + car.getSpeed() + " Kilometros por hora");
+        car.brake(50);
+        System.out.println("La velocidad bajo a: " + car.getSpeed() + " Kilometros por hora");
+
     }
 }

@@ -29,10 +29,17 @@ public class InheritanceExercises {
 
     // Primer ejercicio
     public static class Car extends Vehicle {
-
         // Métodos
         public void honk() {
             System.out.println("Pi Pi");
         }
+    }
+
+    // Segundo ejercicio
+    public static class Student extends Person {
+        // Atributos
+        double grade;
+        // Constructor
+        public Student(String name, int age, double )
     }
 }

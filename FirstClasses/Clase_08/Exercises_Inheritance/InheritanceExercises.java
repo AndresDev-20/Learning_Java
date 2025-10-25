@@ -19,7 +19,8 @@ public class InheritanceExercises {
         Dog dog = new Dog();
         dog.makeSound();
 
-        Cat cat = new C
+        Cat cat = new Cat();
+        cat.makeSound();
 
         // 4. La clase Employee tiene los atributos name y salary. Manager hereda de Employee y agrega el atributo department.
 
@@ -64,14 +65,14 @@ public class InheritanceExercises {
         // Métodos
         @Override
         public void makeSound() {
-            System.out.println("Woof!!");
+            System.out.println("Sonido de perro Woof!!");
         }
     }
     public static class Cat extends Animal {
         // Métodos
         @Override
         public void makeSound() {
-            System.out.println("Meow!!");
+            System.out.println("Sonido de gato Meow!!");
         }
     }
 }

@@ -4,6 +4,6 @@ public class Animal {
 
     // Métodos
     public void makeSound(){
-        System.out.println("WOOFF!!");
+        System.out.println("Sin sonido");
     }
 }

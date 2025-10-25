@@ -53,5 +53,18 @@ public class InheritanceExercises {
     }
 
     // Tercer ejercicio
-    public static class
+    public static class Dog extends Animal{
+        // Métodos
+        @Override
+        public void makeSound() {
+            System.out.println("Woof!!");
+        }
+    }
+    public static class Cat extends Animal {
+        // Métodos
+        @Override
+        public void makeSound() {
+            System.out.println("Meow!!");
+        }
+    }
 }

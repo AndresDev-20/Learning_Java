@@ -51,4 +51,7 @@ public class InheritanceExercises {
             System.out.println("Estoy estudiando en el grado 11, mi nombre es " + getName() + ", tengo " + getAge() + " años y mi nota de este año fue de " + this.grade);
         }
     }
+
+    // Tercer ejercicio
+    public static class
 }

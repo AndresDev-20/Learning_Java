@@ -13,6 +13,13 @@ public class InheritanceExercises {
         student.study();
 
         // 3. Crea una clase Animal con el método makeSound(). Haz que Dog diga “Woof” y Cat diga “Meow” sobrescribiendo ese método.
+        Animal animal = new Animal();
+        animal.makeSound();
+
+        Dog dog = new Dog();
+        dog.makeSound();
+
+        Cat cat = new C
 
         // 4. La clase Employee tiene los atributos name y salary. Manager hereda de Employee y agrega el atributo department.
 

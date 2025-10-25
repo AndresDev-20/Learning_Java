@@ -9,6 +9,8 @@ public class InheritanceExercises {
         car.honk();
 
         // 2. Define una clase Person con los atributos name y age. Luego crea una clase Student que agregue el atributo grade y un método study().
+        Student student = new Student("Andres.dev", 20, 95.0);
+        student.study();
 
         // 3. Crea una clase Animal con el método makeSound(). Haz que Dog diga “Woof” y Cat diga “Meow” sobrescribiendo ese método.
 
@@ -40,6 +42,13 @@ public class InheritanceExercises {
         // Atributos
         double grade;
         // Constructor
-        public Student(String name, int age, double )
+        public Student(String name, int age, double grade) {
+            super(name, age);
+            this.grade = grade;
+        }
+        // Métodos
+        public void study() {
+            System.out.println("Estoy estudiando en el grado 11, mi nombre es " + getName() + ", tengo " + getAge() + " años y mi nota de este año fue de " + this.grade);
+        }
     }
 }

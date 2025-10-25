@@ -2,8 +2,8 @@ package Clase_08.Exercises_Inheritance;
 
 public class Person {
     // Atributos
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     // Constructor
     public Person(String name, int age) {
@@ -11,6 +11,12 @@ public class Person {
         this.age = age;
     }
 
-    // Métodos
+    // Métodos getters
+    public String getName() {
+        return name;
+    }
 
+    public int getAge() {
+        return age;
+    }
 }

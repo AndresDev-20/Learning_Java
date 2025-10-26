@@ -92,4 +92,12 @@ public class InheritanceExercises {
             System.out.println("Empleado: " + getName() + " Salario: " + getSalary() + " depa: " + this.department);
         }
     }
+
+    // Quinto ejercicio
+    public static class Circle extends Shape {
+        @Override
+        public void calculateArea() {
+            System.out.println("");
+        }
+    }
 }

@@ -97,7 +97,13 @@ public class InheritanceExercises {
     public static class Circle extends Shape {
         @Override
         public void calculateArea() {
-            System.out.println("");
+            System.out.println("Método Implementado");
+        }
+    }
+    public static class Rectangle extends Shape {
+        @Override
+        public void calculateArea() {
+            System.out.println("Método Implementado");
         }
     }
 }

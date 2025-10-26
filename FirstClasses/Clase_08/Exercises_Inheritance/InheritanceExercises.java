@@ -75,4 +75,15 @@ public class InheritanceExercises {
             System.out.println("Sonido de gato Meow!!");
         }
     }
+
+    // Cuarto ejercicio
+    public static class Manager extends Employee {
+        // Atributos
+        String department;
+        // Constructor
+        public Manager(String name, double salary, String department) {
+            super(name, salary);
+            this.department = department;
+        }
+    }
 }

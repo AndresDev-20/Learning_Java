@@ -27,6 +27,10 @@ public class InheritanceExercises {
         manager.info();
 
         // 5. Crea una clase abstracta Shape con un método calculateArea(). Luego implementa ese método en Circle y Rectangle.
+        Circle circle = new Circle();
+        Rectangle rectangle = new Rectangle();
+        circle.calculateArea();
+        rectangle.calculateArea();
 
         // 6. Crea una clase Bird con el método fly(). Luego crea Eagle que sobrescriba fly() pero también llame al método original con super.fly().
 

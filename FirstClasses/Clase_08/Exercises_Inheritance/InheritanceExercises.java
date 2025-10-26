@@ -23,6 +23,8 @@ public class InheritanceExercises {
         cat.makeSound();
 
         // 4. La clase Employee tiene los atributos name y salary. Manager hereda de Employee y agrega el atributo department.
+        Manager manager = new Manager("Andres.dev", 3100000.00, "Alcon hero piso 22");
+        manager.info();
 
         // 5. Crea una clase abstracta Shape con un método calculateArea(). Luego implementa ese método en Circle y Rectangle.
 
@@ -84,6 +86,10 @@ public class InheritanceExercises {
         public Manager(String name, double salary, String department) {
             super(name, salary);
             this.department = department;
+        }
+        // Métodos
+        public void info() {
+            System.out.println("Empleado: " + getName() + " Salario: " + getSalary() + " depa: " + this.department);
         }
     }
 }

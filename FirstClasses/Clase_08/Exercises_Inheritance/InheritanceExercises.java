@@ -33,6 +33,8 @@ public class InheritanceExercises {
         rectangle.calculateArea();
 
         // 6. Crea una clase Bird con el método fly(). Luego crea Eagle que sobrescriba fly() pero también llame al método original con super.fly().
+        Eagle eagle = new Eagle();
+        eagle.fly();
 
         // 7. Haz una clase Device con un constructor que imprima “Device created”. Luego crea Phone que herede de Device y en su constructor imprima “Phone ready”.
 

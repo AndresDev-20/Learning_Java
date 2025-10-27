@@ -110,4 +110,7 @@ public class InheritanceExercises {
             System.out.println("Método Implementado");
         }
     }
+
+    // Sexto ejercicio
+    public static class Eagle extends
 }

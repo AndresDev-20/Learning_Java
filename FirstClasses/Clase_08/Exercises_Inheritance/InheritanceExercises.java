@@ -112,5 +112,12 @@ public class InheritanceExercises {
     }
 
     // Sexto ejercicio
-    public static class Eagle extends
+    public static class Eagle extends Bird {
+        // Métodos
+        @Override
+        public void fly() {
+            super.fly();
+            System.out.println("Metodo sobre escrito en la clase eagle");
+        }
+    }
 }

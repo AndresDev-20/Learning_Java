@@ -124,5 +124,11 @@ public class InheritanceExercises {
         }
     }
 
-
+    // Séptimo ejercicio
+    public static class Phone extends Device {
+        public Phone() {
+            super();
+            System.out.println("Phone ready");
+        }
+    }
 }

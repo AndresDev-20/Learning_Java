@@ -40,6 +40,7 @@ public class InheritanceExercises {
         new Phone();
 
         // 8. Account tiene un saldo y métodos para deposit() y withdraw(). SavingsAccount hereda y agrega un método addInterest().
+        SavingsAccount savingsAccount = new SavingsAccount(3000000.00);
 
         // 9. Crea una clase Vehicle y tres subclases: Car, Bike y Truck, cada una con un método describe() sobrescrito.
 
@@ -134,8 +135,19 @@ public class InheritanceExercises {
 
     // Octavo ejercicio
     public static class SavingsAccount extends Bank {
+        // Atributos
+        double interest;
+        // Constructor
         public SavingsAccount(double acount) {
             super(acount);
+        }
+        // Métodos
+        public void addInterest(double interest) {
+            interest = interest + interest;
+        }
+
+        public double getInterest() {
+            return interest;
         }
     }
 }

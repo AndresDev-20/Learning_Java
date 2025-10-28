@@ -17,4 +17,8 @@ public class Bank {
     public void withdraw(double amount) {
         this.acount = this.acount - amount;
     }
+
+    public double getAcount() {
+        return acount;
+    }
 }

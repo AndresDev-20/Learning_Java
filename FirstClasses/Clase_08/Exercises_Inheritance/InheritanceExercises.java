@@ -54,6 +54,12 @@ public class InheritanceExercises {
         System.out.println("Saldo final: " + savingsAccount.getAccount());
 
         // 9. Crea una clase Vehicle y tres subclases: Car, Bike y Truck, cada una con un método describe() sobrescrito.
+        Cart cart = new Cart();
+        cart.describe();
+        Bike bike  = new Bike();
+        bike.describe();
+        Truck truck = new Truck();
+        truck.describe();
 
         // 10. Crea un ArrayList<Animal> que contenga instancias de Dog, Cat y Bird. Recorre la lista y llama a makeSound().
     }
@@ -170,18 +176,21 @@ public class InheritanceExercises {
     public static class Cart extends Vehicle {
         @Override
         public void describe() {
+            super.describe();
             System.out.println("El carro de carreras");
         }
     }
     public  static  class Bike extends Vehicle {
         @Override
         public void describe() {
+            super.describe();
             System.out.println("La bicicleta es lenta");
         }
     }
     public  static  class Truck extends Vehicle {
         @Override
         public void describe() {
+            super.describe();
             System.out.println("El camion lleva mucho peso");
         }
     }

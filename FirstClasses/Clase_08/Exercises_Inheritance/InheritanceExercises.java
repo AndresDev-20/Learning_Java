@@ -40,7 +40,18 @@ public class InheritanceExercises {
         new Phone();
 
         // 8. Account tiene un saldo y métodos para deposit() y withdraw(). SavingsAccount hereda y agrega un método addInterest().
-        SavingsAccount savingsAccount = new SavingsAccount(3000000.00);
+        SavingsAccount savingsAccount = new SavingsAccount(3_000_000.00, 0.0);
+        // Agregamos interés
+        savingsAccount.addInterest(100_000.00);
+        System.out.println("Total de intereses: " + savingsAccount.getInterest());
+        // Consultamos saldo actual
+        System.out.println("Saldo actual: " + savingsAccount.getAccount());
+        // Hacemos un depósito
+        savingsAccount.deposit(1_000_000.00);
+        System.out.println("Saldo después del depósito: " + savingsAccount.getAccount());
+        // Retiramos dinero
+        savingsAccount.withdraw(500_000.00);
+        System.out.println("Saldo final: " + savingsAccount.getAccount());
 
         // 9. Crea una clase Vehicle y tres subclases: Car, Bike y Truck, cada una con un método describe() sobrescrito.
 
@@ -135,15 +146,19 @@ public class InheritanceExercises {
 
     // Octavo ejercicio
     public static class SavingsAccount extends Bank {
-        // Atributos
-        double interest;
+        // Atributo adicional
+        private double interest;
+
         // Constructor
-        public SavingsAccount(double acount) {
-            super(acount);
+        public SavingsAccount(double account, double interest) {
+            super(account); // Llama al constructor del padre
+            this.interest = interest;
         }
-        // Métodos
-        public void addInterest(double interest) {
-            interest = interest + interest;
+
+        // Método adicional específico de SavingsAccount
+        public void addInterest(double amount) {
+            interest += amount;
+            System.out.println("Interés añadido: " + amount);
         }
 
         public double getInterest() {

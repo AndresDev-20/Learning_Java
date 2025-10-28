@@ -165,4 +165,24 @@ public class InheritanceExercises {
             return interest;
         }
     }
+
+    // Noveno ejercicio
+    public static class Cart extends Vehicle {
+        @Override
+        public void describe() {
+            System.out.println("El carro de carreras");
+        }
+    }
+    public  static  class Bike extends Vehicle {
+        @Override
+        public void describe() {
+            System.out.println("La bicicleta es lenta");
+        }
+    }
+    public  static  class Truck extends Vehicle {
+        @Override
+        public void describe() {
+            System.out.println("El camion lleva mucho peso");
+        }
+    }
 }

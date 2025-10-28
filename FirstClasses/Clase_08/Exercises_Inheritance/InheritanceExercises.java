@@ -131,4 +131,11 @@ public class InheritanceExercises {
             System.out.println("Phone ready");
         }
     }
+
+    // Octavo ejercicio
+    public static class SavingsAccount extends Bank {
+        public SavingsAccount(double acount) {
+            super(acount);
+        }
+    }
 }

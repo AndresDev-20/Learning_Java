@@ -1,5 +1,7 @@
 package Clase_08.Exercises_Inheritance;
 
+import java.util.ArrayList;
+
 public class InheritanceExercises {
 
     public static void main(String[] args) {
@@ -62,6 +64,8 @@ public class InheritanceExercises {
         truck.describe();
 
         // 10. Crea un ArrayList<Animal> que contenga instancias de Dog, Cat y Bird. Recorre la lista y llama a makeSound().
+        ArrayList<Animal> animals = new ArrayList<>();
+        animals.add(dog);
     }
 
     // Primer ejercicio
@@ -138,7 +142,7 @@ public class InheritanceExercises {
         @Override
         public void fly() {
             super.fly();
-            System.out.println("Metodo sobre escrito en la clase eagle");
+            System.out.println("Método sobre escrito en la clase eagle");
         }
     }
 

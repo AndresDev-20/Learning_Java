@@ -5,5 +5,7 @@ public class Abstraction {
         // Abstracción
     }
     // Clase abstracta
+public static abstract class Animal {
 
+    }
 }

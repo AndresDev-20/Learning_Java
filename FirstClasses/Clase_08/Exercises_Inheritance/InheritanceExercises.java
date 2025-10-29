@@ -64,8 +64,14 @@ public class InheritanceExercises {
         truck.describe();
 
         // 10. Crea un ArrayList<Animal> que contenga instancias de Dog, Cat y Bird. Recorre la lista y llama a makeSound().
+        Birdd birdd = new Birdd();
         ArrayList<Animal> animals = new ArrayList<>();
         animals.add(dog);
+        animals.add(cat);
+        animals.add(birdd);
+        for (int i = 0; i < animals.size(); i++) {
+            animals.get(i).makeSound();
+        }
     }
 
     // Primer ejercicio
@@ -196,6 +202,14 @@ public class InheritanceExercises {
         public void describe() {
             super.describe();
             System.out.println("El camion lleva mucho peso");
+        }
+    }
+
+    // Décimo ejercicio
+    public static class Birdd extends Animal {
+        @Override
+        public void makeSound() {
+            System.out.println("Canto de pajarraco");
         }
     }
 }

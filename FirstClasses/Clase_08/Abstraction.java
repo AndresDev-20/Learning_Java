@@ -4,8 +4,9 @@ public class Abstraction {
     public static void main(String[] args) {
         // Abstracción
         var perro = new Dog();
-        var gato = new Dog();
-        System.out.println(perro);
+        var gato = new Cat();
+        perro.sound();
+        gato.sound();
     }
     // Clase abstracta
     public static abstract class Animal {

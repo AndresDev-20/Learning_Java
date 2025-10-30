@@ -6,6 +6,8 @@ public class Abstraction {
     }
     // Clase abstracta
 public static abstract class Animal {
+        public abstract void sound();
+
 
     }
 }

@@ -22,6 +22,8 @@ public static abstract class Animal {
 
     public static class Cat extends Animal {
         @Override
-        public static
+        public void sound() {
+            System.out.println("El gato hace miauuu");
+        }
     }
 }

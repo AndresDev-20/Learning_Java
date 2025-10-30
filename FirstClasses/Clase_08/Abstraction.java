@@ -12,4 +12,8 @@ public static abstract class Animal {
             System.out.println("El animal duerme");
         }
     }
+
+    public static class Dog extends Animal {
+        @Override
+    }
 }

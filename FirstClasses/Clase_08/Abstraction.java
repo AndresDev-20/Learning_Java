@@ -8,6 +8,8 @@ public class Abstraction {
 public static abstract class Animal {
         public abstract void sound();
 
-
+        public void sleep() {
+            System.out.println("El animal duerme");
+        }
     }
 }

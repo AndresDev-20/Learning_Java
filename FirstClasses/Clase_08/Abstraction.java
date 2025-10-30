@@ -3,9 +3,12 @@ package Clase_08;
 public class Abstraction {
     public static void main(String[] args) {
         // Abstracción
+        var perro = new Dog();
+        var gato = new Dog();
+        System.out.println(perro);
     }
     // Clase abstracta
-public static abstract class Animal {
+    public static abstract class Animal {
         public abstract void sound();
 
         public void sleep() {

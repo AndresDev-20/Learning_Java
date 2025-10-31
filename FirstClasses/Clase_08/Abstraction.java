@@ -3,12 +3,17 @@ package Clase_08;
 public class Abstraction {
     public static void main(String[] args) {
         // Abstracción
+
+        // - Clase abstracta
         var perro = new Dog();
         var gato = new Cat();
         perro.sound();
         perro.sleep();
         gato.sound();
         gato.sleep();
+
+        // - Interface
+
 
     }
     // Clase abstracta
@@ -42,5 +47,10 @@ public class Abstraction {
         public void sleep(){
             System.out.println("El gato esta durmiendo");
         }
+    }
+
+    // - Interface
+    interface Flying {
+
     }
 }

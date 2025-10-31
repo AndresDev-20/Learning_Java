@@ -51,6 +51,21 @@ public class Abstraction {
 
     // - Interface
     interface Flying {
+        void fly();
+    }
 
+    public static class pajarraco extends Animal implements Flying {
+        @Override
+        public void sound() {
+            System.out.println("El pajarraco hace pio pio");
+        }
+        @Override
+        public void sleep() {
+            System.out.println("El pajarraco esta durmiendo");
+        }
+        @Override
+        public void fly() {
+            System.out.println("El pajarraco vuela como un dragon");
+        }
     }
 }

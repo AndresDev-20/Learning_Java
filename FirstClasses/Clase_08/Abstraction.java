@@ -6,7 +6,10 @@ public class Abstraction {
         var perro = new Dog();
         var gato = new Cat();
         perro.sound();
+        perro.sleep();
         gato.sound();
+        gato.sleep();
+
     }
     // Clase abstracta
     public static abstract class Animal {

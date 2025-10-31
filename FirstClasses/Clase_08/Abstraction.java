@@ -34,5 +34,10 @@ public class Abstraction {
         public void sound() {
             System.out.println("El gato hace miauuu");
         }
+
+        @Override
+        public void sleep(){
+            System.out.println("El gato esta durmiendo");
+        }
     }
 }

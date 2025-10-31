@@ -22,6 +22,11 @@ public class Abstraction {
         public void sound() {
             System.out.println("El perro hace guaoooo");
         }
+
+        @Override
+        public void sleep() {
+            System.out.println("El perro esta durmiendo");
+        }
     }
 
     public static class Cat extends Animal {

@@ -1,9 +1,18 @@
 package Clase_08.Exercises_Polymorphism;
 
+import java.util.ArrayList;
+
 public class Polymorphism {
 
     public static void main(String[] args) {
         // 1. Crea una clase Animal con el método makeSound(). Luego crea subclases Dog, Cat y Cow que sobrescriban ese método con sonidos diferentes. Llama al método desde una lista de Animal.
+        ArrayList<Animal> animals = new ArrayList<>();
+        animals.add(new Dog());
+        animals.add(new Cat());
+        animals.add(new Cow());
+        for (Animal animal: animals) {
+            animal.makeSound();
+        }
 
         // 2. Crea una clase Shape con el método calculateArea(). Luego implementa subclases Circle y Rectangle con sus propias fórmulas. Usa una lista de Shape para recorrer e imprimir el área de varias figuras.
 

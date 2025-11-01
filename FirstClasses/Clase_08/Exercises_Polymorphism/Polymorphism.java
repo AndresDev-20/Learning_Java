@@ -60,8 +60,7 @@ public class Polymorphism {
         // Métodos
         @Override
         public double calculateArea(double radio) {
-            double res = valorpi * Math.pow(radio, 2);
-            return res;
+            return  valorpi * Math.pow(radio, 2);
         }
     }
     public static class rectangle extends Shape {

@@ -52,4 +52,7 @@ public class Polymorphism {
             System.out.println("🐮 La vaca hace Muuuuu!!!");
         }
     }
+
+    // Segundo ejercicio
+
 }

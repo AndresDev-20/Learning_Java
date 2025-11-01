@@ -39,6 +39,8 @@ public class Polymorphism {
     }
     public static class Cow extends Animal {
         @Override
-        public void
+        public void makeSound() {
+            System.out.println("🐮 La vaca hace Muuuuu!!!");
+        }
     }
 }

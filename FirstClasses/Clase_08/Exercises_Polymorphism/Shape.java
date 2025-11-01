@@ -1,10 +1,12 @@
 package Clase_08.Exercises_Polymorphism;
 
-public abstract class Shape {
+public class Shape {
 
     // Métodos
-    public int calculateArea() {
+    public int calculateArea(int b, int a) {
         return 0;
     }
-    public abstract double calculateArea(double radio);
+    public double calculateArea(double radio){
+        return 0;
+    }
 }

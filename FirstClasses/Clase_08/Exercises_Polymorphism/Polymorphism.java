@@ -64,5 +64,10 @@ public class Polymorphism {
             return res;
         }
     }
-    p
+    public static class rectangle extends Shape {
+        @Override
+        public int calculateArea(int base, int altura) {
+            return base * altura;
+        }
+    }
 }

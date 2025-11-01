@@ -23,4 +23,22 @@ public class Polymorphism {
 
         // 10. Crea una clase Character con método attack(). Luego crea subclases Warrior, Archer, Mage con ataques diferentes. En main, crea un array de Character y llama a attack() para cada uno.
     }
+
+    // Primer ejercicio
+    public static class Dog extends Animal {
+        @Override
+        public void makeSound() {
+            System.out.println("🐶 El perro hace Guaauuuu!!!");
+        }
+    }
+    public static class Cat extends Animal {
+        @Override
+        public void makeSound() {
+            System.out.println("😺 El gato hace Miauuu!!!");
+        }
+    }
+    public static class Cow extends Animal {
+        @Override
+        public void
+    }
 }

@@ -54,5 +54,15 @@ public class Polymorphism {
     }
 
     // Segundo ejercicio
-
+    public static class circle extends Shape {
+        // Atributos
+        double valorpi = Math.PI;
+        // Métodos
+        @Override
+        public double calculateArea(double radio) {
+            double res = valorpi * Math.pow(radio, 2);
+            return res;
+        }
+    }
+    p
 }

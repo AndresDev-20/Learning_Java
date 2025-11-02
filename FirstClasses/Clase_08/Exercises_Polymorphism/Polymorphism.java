@@ -15,6 +15,12 @@ public class Polymorphism {
         }
 
         // 2. Crea una clase Shape con el método calculateArea(). Luego implementa subclases Circle y Rectangle con sus propias fórmulas. Usa una lista de Shape para recorrer e imprimir el área de varias figuras.
+        ArrayList<Shape> shapes = new ArrayList<>();
+        shapes.add(new circle());
+        shapes.add(new rectangle());
+        for (Shape shape: shapes){
+            System.out.println(shape.calculateArea(30, 20));
+        }
 
         // 3. Crea una clase Printer con varios métodos print() sobrecargados que acepten diferentes tipos de parámetros (String, int, double). Llama a cada uno desde main.
 

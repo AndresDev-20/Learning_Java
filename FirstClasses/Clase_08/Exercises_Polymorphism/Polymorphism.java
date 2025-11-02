@@ -16,10 +16,10 @@ public class Polymorphism {
 
         // 2. Crea una clase Shape con el método calculateArea(). Luego implementa subclases Circle y Rectangle con sus propias fórmulas. Usa una lista de Shape para recorrer e imprimir el área de varias figuras.
         ArrayList<Shape> shapes = new ArrayList<>();
-        shapes.add(new circle());
-        shapes.add(new rectangle());
-        for (Shape shape: shapes){
-            System.out.println(shape.calculateArea(30, 20));
+        shapes.add(new circle(5));
+        shapes.add(new rectangle(3, 2));
+        for (Shape shape: shapes) {
+            System.out.println(shape.calculateArea());
         }
 
         // 3. Crea una clase Printer con varios métodos print() sobrecargados que acepten diferentes tipos de parámetros (String, int, double). Llama a cada uno desde main.
@@ -62,17 +62,30 @@ public class Polymorphism {
     // Segundo ejercicio
     public static class circle extends Shape {
         // Atributos
-        double valorpi = Math.PI;
+        private double radius;
+        // Constructor
+        public circle(double radius) {
+            this.radius = radius;
+        }
         // Métodos
         @Override
-        public double calculateArea(double radio) {
-            return  valorpi * Math.pow(radio, 2);
+        public double calculateArea() {
+            return  Math.PI * Math.pow(radius, 2);
         }
     }
     public static class rectangle extends Shape {
+        // Atributos
+        private double base;
+        private double height;
+        // Constructor
+        public rectangle(double base, double height){
+            this.base = base;
+            this.height = height;
+        }
+        // Métodos
         @Override
-        public int calculateArea(int base, int altura) {
-            return base * altura;
+        public double calculateArea() {
+            return base * height;
         }
     }
 }

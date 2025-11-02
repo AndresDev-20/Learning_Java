@@ -23,6 +23,10 @@ public class Polymorphism {
         }
 
         // 3. Crea una clase Printer con varios métodos print() sobrecargados que acepten diferentes tipos de parámetros (String, int, double). Llama a cada uno desde main.
+        Printer printer = new Printer();
+        System.out.println("Resultado de la suma de enteros: " + printer.suma(12, 33));
+        System.out.println("Resultado de la suma de decimales: " + printer.suma(1.73, 3.90));
+        System.out.println("Resultado de la suma de enteros y decimal: " + printer.suma(12.322, 3.389, 33));
 
         // 4. Crea una clase Greeter con dos métodos greet(): uno que salude con “Hello”, y otro que reciba un nombre y salude con “Hello, [nombre]”.
 

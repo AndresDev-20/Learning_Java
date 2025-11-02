@@ -88,4 +88,7 @@ public class Polymorphism {
             return base * height;
         }
     }
+
+    // Tercer ejercicio
+
 }

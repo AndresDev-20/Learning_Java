@@ -44,6 +44,7 @@ public class Polymorphism {
 
         // 6. Crea una clase Notification con método send(), y subclases EmailNotification, SMSNotification. Luego crea una función sendNotification(Notification n) que reciba cualquier tipo y lo ejecute.
 
+
         // 7. Crea una función showAnimalType(Animal animal) que imprima el tipo de animal. Pasa diferentes subclases (Dog, Cat, Horse) para que cada una imprima su tipo con su propio getType() sobrescrito.
 
         // 8. Crea una clase Converter con métodos convert(int), convert(double), y convert(String) que devuelvan diferentes formatos de texto.
@@ -127,8 +128,17 @@ public class Polymorphism {
     public static class EmailNotification extends Notification {
 
         // Métodos
-        public void sendNotification(Notification n) {
-            System.out.println("Enviando notificación al email");
+        @Override
+        public void send() {
+            System.out.println("Envió de notificación por email");
+        }
+    }
+    public static class SMSNotification extends Notification {
+
+        // Métodos
+        @Override
+        public void send() {
+            System.out.println("Envió de notificación por mensaje de texto");
         }
     }
 }

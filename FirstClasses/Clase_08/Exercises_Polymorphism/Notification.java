@@ -6,4 +6,7 @@ public class Notification {
     public void send() {
         System.out.println("send");
     }
+    public void sendNotification(Notification n) {
+        System.out.println(n);
+    }
 }

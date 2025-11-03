@@ -34,6 +34,13 @@ public class Polymorphism {
         greeter.greet("Andres.dev");
 
         // 5. Crea una clase Vehicle con un método start(). Luego crea Car, Bike y Truck que sobrescriban ese método. Recorre una lista ArrayList<Vehicle> para llamar a start() en cada uno.
+        ArrayList<Vehicle> vehicles = new ArrayList<>();
+        vehicles.add(new Car());
+        vehicles.add(new Bike());
+        vehicles.add(new Truck());
+        for (Vehicle vehicle: vehicles) {
+            vehicle.start();
+        }
 
         // 6. Crea una clase Notification con método send(), y subclases EmailNotification, SMSNotification. Luego crea una función sendNotification(Notification n) que reciba cualquier tipo y lo ejecute.
 

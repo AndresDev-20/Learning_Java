@@ -97,5 +97,23 @@ public class Polymorphism {
     }
 
     // Tercer ejercicio
+    public  static class Car extends Vehicle {
+        @Override
+        public void start() {
+            System.out.println("Arranca el auto");
+        }
+    }
+    public  static class Bike extends Vehicle {
+        @Override
+        public void start() {
+            System.out.println("Arranca la bici");
+        }
+    }
+    public  static class Truck extends Vehicle {
+        @Override
+        public void start() {
+            System.out.println("Arranca el Camion");
+        }
+    }
 
 }

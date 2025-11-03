@@ -29,6 +29,9 @@ public class Polymorphism {
         System.out.println("Resultado de la suma de enteros y decimal: " + printer.suma(12.322, 3.389, 33));
 
         // 4. Crea una clase Greeter con dos métodos greet(): uno que salude con “Hello”, y otro que reciba un nombre y salude con “Hello, [nombre]”.
+        Greeter greeter = new Greeter();
+        greeter.greet();
+        greeter.greet("Andres.dev");
 
         // 5. Crea una clase Vehicle con un método start(). Luego crea Car, Bike y Truck que sobrescriban ese método. Recorre una lista ArrayList<Vehicle> para llamar a start() en cada uno.
 

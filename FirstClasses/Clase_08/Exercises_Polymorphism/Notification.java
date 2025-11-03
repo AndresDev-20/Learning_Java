@@ -7,6 +7,6 @@ public class Notification {
         System.out.println("send");
     }
     public void sendNotification(Notification n) {
-        System.out.println(n);
+        n.send();
     }
 }

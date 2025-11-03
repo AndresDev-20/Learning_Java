@@ -43,7 +43,12 @@ public class Polymorphism {
         }
 
         // 6. Crea una clase Notification con método send(), y subclases EmailNotification, SMSNotification. Luego crea una función sendNotification(Notification n) que reciba cualquier tipo y lo ejecute.
-
+        Notification notification = new Notification();
+        EmailNotification email = new EmailNotification();
+        SMSNotification sms = new SMSNotification();
+        notification.send();
+        notification.sendNotification(email);
+        notification.sendNotification(sms);
 
         // 7. Crea una función showAnimalType(Animal animal) que imprima el tipo de animal. Pasa diferentes subclases (Dog, Cat, Horse) para que cada una imprima su tipo con su propio getType() sobrescrito.
 

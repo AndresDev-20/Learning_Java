@@ -123,4 +123,12 @@ public class Polymorphism {
         }
     }
 
+    // Cuarto ejercicio
+    public static class EmailNotification extends Notification {
+
+        // Métodos
+        public void sendNotification(Notification n) {
+            System.out.println("Enviando notificación al email");
+        }
+    }
 }

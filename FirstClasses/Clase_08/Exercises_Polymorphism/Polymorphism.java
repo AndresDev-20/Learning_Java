@@ -51,6 +51,9 @@ public class Polymorphism {
         notification.sendNotification(sms);
 
         // 7. Crea una función showAnimalType(Animal animal) que imprima el tipo de animal. Pasa diferentes subclases (Dog, Cat, Horse) para que cada una imprima su tipo con su propio getType() sobrescrito.
+        showAnimalType(new Dog());
+        showAnimalType(new Cat());
+        showAnimalType(new Cow());
 
         // 8. Crea una clase Converter con métodos convert(int), convert(double), y convert(String) que devuelvan diferentes formatos de texto.
 
@@ -65,17 +68,29 @@ public class Polymorphism {
         public void makeSound() {
             System.out.println("🐶 El perro hace Guaauuuu!!!");
         }
+        @Override
+        public void getType() {
+            System.out.println("Soy perro 🐶");
+        }
     }
     public static class Cat extends Animal {
         @Override
         public void makeSound() {
             System.out.println("😺 El gato hace Miauuu!!!");
         }
+        @Override
+        public void getType() {
+            System.out.println("Soy gato 😺");
+        }
     }
     public static class Cow extends Animal {
         @Override
         public void makeSound() {
             System.out.println("🐮 La vaca hace Muuuuu!!!");
+        }
+        @Override
+        public void getType() {
+            System.out.println("Soy Vaca 🐮");
         }
     }
 
@@ -145,5 +160,10 @@ public class Polymorphism {
         public void send() {
             System.out.println("Envió de notificación por mensaje de texto");
         }
+    }
+
+    // Quinto ejercicio
+    public static void showAnimalType(Animal animal) {
+        animal.getType();
     }
 }

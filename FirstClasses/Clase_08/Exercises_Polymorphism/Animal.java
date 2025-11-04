@@ -6,4 +6,7 @@ public class Animal {
     public void makeSound() {
         System.out.println("El animal tendrá que hacer un sonido");
     }
+    public void getType() {
+        System.out.println("El método sin animal");
+    }
 }

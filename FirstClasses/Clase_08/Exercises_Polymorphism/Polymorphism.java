@@ -56,6 +56,10 @@ public class Polymorphism {
         showAnimalType(new Cow());
 
         // 8. Crea una clase Converter con métodos convert(int), convert(double), y convert(String) que devuelvan diferentes formatos de texto.
+        Conveter conveter = new Conveter();
+        System.out.println(conveter.convert(20));
+        System.out.println(conveter.convert(2.1));
+        System.out.println(conveter.convert("33"));
 
         // 9. Crea una clase Product con el método getPrice(). Luego, Book y Electronic deben sobrescribirlo con su propia lógica de descuento. Recorre una lista de Product e imprime el precio final de cada uno.
 

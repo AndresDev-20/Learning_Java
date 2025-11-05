@@ -62,6 +62,15 @@ public class Polymorphism {
         System.out.println(conveter.convert("33"));
 
         // 9. Crea una clase Product con el método getPrice(). Luego, Book y Electronic deben sobrescribirlo con su propia lógica de descuento. Recorre una lista de Product e imprime el precio final de cada uno.
+        ArrayList<Product> e = new ArrayList();
+        e.add(new Book());
+        e.add(new Electronic());
+        for (int i = 0; i < e.size(); i++) {
+            double res = e.get(i).getPrice();
+            System.out.println("Precio del producto: " + res);
+        }
+        Book book = new Book();
+        System.out.println(book.getPrice());
 
         // 10. Crea una clase Character con método attack(). Luego crea subclases Warrior, Archer, Mage con ataques diferentes. En main, crea un array de Character y llama a attack() para cada uno.
     }
@@ -173,18 +182,18 @@ public class Polymorphism {
 
     // Sexto ejercicio
     public static class Book extends Product {
-        double price = 3000.00;
 
         @Override
         public double getPrice(){
-            double valueDiscount = 40 / 100;
-            return valueDiscount * 3000.00;
+            double valueDiscount = 40.0 / 100.0;
+
+            return valueDiscount;
         }
     }
     public static class Electronic extends Product {
         @Override
         public double getPrice() {
-            double valueDiscount = 50 / 100;
+            double valueDiscount = 100 / 50;
             return valueDiscount * 3000.00;
         }
     }

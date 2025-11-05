@@ -170,4 +170,21 @@ public class Polymorphism {
     public static void showAnimalType(Animal animal) {
         animal.getType();
     }
+
+    // Sexto ejercicio
+    public static class Book extends Product {
+        double price = 3000.00;
+
+        @Override
+        public double getPrice(){
+
+            return 3000.00;
+        }
+    }
+    public static class Electronic extends Product {
+        @Override
+        public double getPrice() {
+            return 2000.00;
+        }
+    }
 }

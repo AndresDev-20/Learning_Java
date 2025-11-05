@@ -177,14 +177,15 @@ public class Polymorphism {
 
         @Override
         public double getPrice(){
-
-            return 3000.00;
+            double valueDiscount = 40 / 100;
+            return valueDiscount * 3000.00;
         }
     }
     public static class Electronic extends Product {
         @Override
         public double getPrice() {
-            return 2000.00;
+            double valueDiscount = 50 / 100;
+            return valueDiscount * 3000.00;
         }
     }
 }

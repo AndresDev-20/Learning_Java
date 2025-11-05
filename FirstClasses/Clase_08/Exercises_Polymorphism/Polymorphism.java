@@ -182,12 +182,12 @@ public class Polymorphism {
 
     // Sexto ejercicio
     public static class Book extends Product {
-
+        double price = 3000.00;
         @Override
         public double getPrice(){
             double valueDiscount = 40.0 / 100.0;
-
-            return valueDiscount;
+            double res = valueDiscount * price;
+            return res;
         }
     }
     public static class Electronic extends Product {

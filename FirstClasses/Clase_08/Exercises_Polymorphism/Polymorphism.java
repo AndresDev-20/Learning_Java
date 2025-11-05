@@ -69,8 +69,6 @@ public class Polymorphism {
             double res = e.get(i).getPrice();
             System.out.println("Precio del producto: " + res);
         }
-        Book book = new Book();
-        System.out.println(book.getPrice());
 
         // 10. Crea una clase Character con método attack(). Luego crea subclases Warrior, Archer, Mage con ataques diferentes. En main, crea un array de Character y llama a attack() para cada uno.
     }
@@ -191,10 +189,12 @@ public class Polymorphism {
         }
     }
     public static class Electronic extends Product {
+        double price = 5000.00;
         @Override
-        public double getPrice() {
-            double valueDiscount = 100 / 50;
-            return valueDiscount * 3000.00;
+        public double getPrice(){
+            double valueDiscount = 50.0 / 100.0;
+            double res = valueDiscount * price;
+            return res;
         }
     }
 }

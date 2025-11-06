@@ -73,6 +73,7 @@ public class Polymorphism {
         // 10. Crea una clase Character con método attack(). Luego crea subclases Warrior, Archer, Mage con ataques diferentes. En main, crea un array de Character y llama a attack() para cada uno.
         Character[] characters = {new Warrior(), new Archer(), new Mage()};
         for (int i = 0; i < characters.length; i++) {
+            characters[i].attack();
         }
     }
 

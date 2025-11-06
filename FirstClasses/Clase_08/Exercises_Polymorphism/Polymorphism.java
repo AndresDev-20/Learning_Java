@@ -211,4 +211,10 @@ public class Polymorphism {
             System.out.println("Flecha sagrada");
         }
     }
+    public static class Mage extends Character {
+        @Override
+        public void attack() {
+            System.out.println("Truco magico");
+        }
+    }
 }

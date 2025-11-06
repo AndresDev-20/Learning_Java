@@ -197,4 +197,18 @@ public class Polymorphism {
             return price - (price * discount);
         }
     }
+
+    // Septimo ejercicio
+    public static class Warrior extends Character {
+        @Override
+        public void attack() {
+            System.out.println("Luna infernal");
+        }
+    }
+    public static class Archer extends Character {
+        @Override
+        public void attack() {
+            System.out.println("Flecha sagrada");
+        }
+    }
 }

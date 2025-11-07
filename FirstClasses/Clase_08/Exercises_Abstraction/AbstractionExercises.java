@@ -37,4 +37,19 @@ public class AbstractionExercises {
             return Math.PI * Math.pow(radius, 2);
         }
     }
+    public static class Rectangle extends Shape {
+        // Atributos
+        private double base;
+        private double altura;
+        // Constructor
+        public Rectangle(double base, double altura) {
+            this.base = base;
+            this.altura = altura;
+        }
+        // Métodos
+        @Override
+        public double calculateArea() {
+            return base * altura;
+        }
+    }
 }

@@ -4,6 +4,8 @@ public class AbstractionExercises {
 
     public static void main(String[] args) {
         // 1. Crea una clase abstracta Shape con el método calculateArea(). Luego implementa dos subclases: Circle y Rectangle, y haz que cada una calcule su propia área.
+        Circle circle = new Circle(3.5);
+        Rectangle rectangle =
 
         // 2. Crea una interfaz Playable con el método play(). Luego implementa esa interfaz en dos clases: Guitar y Piano. Cada una debe mostrar un mensaje diferente al ejecutarse.
 

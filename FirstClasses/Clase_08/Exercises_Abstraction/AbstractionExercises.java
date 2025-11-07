@@ -33,7 +33,7 @@ public class AbstractionExercises {
         }
         // Métodos
         @Override
-        public void calculateArea() {
+        public double calculateArea() {
             return Math.PI * Math.pow(radius, 2);
         }
     }

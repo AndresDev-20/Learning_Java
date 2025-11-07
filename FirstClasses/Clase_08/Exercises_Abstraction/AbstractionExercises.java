@@ -25,9 +25,16 @@ public class AbstractionExercises {
     }
 
     public static class Circle extends Shape {
+        // Atributos
+        private double radius;
+        // Constructor
+        public Circle(double radius) {
+            this.radius = radius;
+        }
+        // Métodos
         @Override
         public void calculateArea() {
-
+            return Math.PI * Math.pow(radius, 2);
         }
     }
 }

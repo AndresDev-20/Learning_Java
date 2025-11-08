@@ -87,4 +87,11 @@ public class AbstractionExercises {
             System.out.println("Guauuuu!!!");
         }
     }
+    public static class Cat extends Animal {
+        // Métodos
+        @Override
+        public void makeSound() {
+            System.out.println("Miauuuuu");
+        }
+    }
 }

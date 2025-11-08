@@ -62,5 +62,6 @@ public class AbstractionExercises {
     public interface Playable {
         void play();
     }
-
+    public static class Guitar implements Playable {
+    }
 }

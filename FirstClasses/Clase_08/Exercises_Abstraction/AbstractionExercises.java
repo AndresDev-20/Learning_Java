@@ -80,4 +80,11 @@ public class AbstractionExercises {
     }
 
     // Tercer ejercicio
+    public static class Dog extends Animal {
+        // Métodos
+        @Override
+        public void makeSound() {
+            System.out.println("Guauuuu!!!");
+        }
+    }
 }

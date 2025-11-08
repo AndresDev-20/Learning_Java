@@ -63,5 +63,8 @@ public class AbstractionExercises {
         void play();
     }
     public static class Guitar implements Playable {
+        public void play() {
+            System.out.println("trin trin trin");
+        }
     }
 }

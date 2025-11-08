@@ -11,7 +11,9 @@ public class AbstractionExercises {
 
         // 2. Crea una interfaz Playable con el método play(). Luego implementa esa interfaz en dos clases: Guitar y Piano. Cada una debe mostrar un mensaje diferente al ejecutarse.
         Guitar guitar = new Guitar();
-        guitar.play();git
+        Piano piano = new Piano();
+        guitar.play();
+        piano.play();
 
         // 3. Define una clase abstracta Animal con el método makeSound(). Implementa Dog y Cat para que hagan sonidos distintos. Crea un array de Animal para mostrar polimorfismo.
 

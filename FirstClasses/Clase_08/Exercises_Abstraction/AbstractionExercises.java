@@ -10,6 +10,8 @@ public class AbstractionExercises {
         System.out.println("Area del Rectangulo: " + rectangle.calculateArea());
 
         // 2. Crea una interfaz Playable con el método play(). Luego implementa esa interfaz en dos clases: Guitar y Piano. Cada una debe mostrar un mensaje diferente al ejecutarse.
+        Guitar guitar = new Guitar();
+        guitar.play();git
 
         // 3. Define una clase abstracta Animal con el método makeSound(). Implementa Dog y Cat para que hagan sonidos distintos. Crea un array de Animal para mostrar polimorfismo.
 
@@ -63,8 +65,17 @@ public class AbstractionExercises {
         void play();
     }
     public static class Guitar implements Playable {
+        @Override
         public void play() {
             System.out.println("trin trin trin");
         }
     }
+    public static class Piano implements Playable {
+        @Override
+        public void play() {
+            System.out.println("Tin tin tin");
+        }
+    }
+
+    // Tercer ejercicio
 }

@@ -28,6 +28,7 @@ public class AbstractionExercises {
         // 10. Crea una interfaz Payable con el método pay(). Luego implementa las clases Invoice y EmployeePayment, cada una mostrando un mensaje de pago diferente.
     }
 
+    // Primer ejercicio
     public static class Circle extends Shape {
         // Atributos
         private double radius;
@@ -56,4 +57,10 @@ public class AbstractionExercises {
             return base * altura;
         }
     }
+
+    // Segundo ejercicio
+    public interface Playable {
+        void play();
+    }
+
 }

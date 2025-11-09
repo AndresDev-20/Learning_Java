@@ -106,5 +106,8 @@ public class AbstractionExercises {
     }
     public static class Cuadrado implements Drawable {
         @Override
+        public void draw() {
+            System.out.println("Se dibuja un cuadro con todos sus lados iguales");
+        }
     }
 }

@@ -16,6 +16,10 @@ public class AbstractionExercises {
         piano.play();
 
         // 3. Define una clase abstracta Animal con el método makeSound(). Implementa Dog y Cat para que hagan sonidos distintos. Crea un array de Animal para mostrar polimorfismo.
+        Animal[] animals = {new Dog(), new Cat()};
+        for (int i = 0; i < animals.length; i++) {
+            animals[i].makeSound();
+        }
 
         // 4. Crea una interfaz Drawable. Implementa las clases Circle, Square, y Triangle que muestren cómo se dibuja cada figura usando draw().
 

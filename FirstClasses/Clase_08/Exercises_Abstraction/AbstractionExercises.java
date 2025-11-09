@@ -98,4 +98,11 @@ public class AbstractionExercises {
             System.out.println("Miauuuuu");
         }
     }
+
+    // Cuarto ejercicio
+    public interface Drawable {
+        // Métodos
+        void draw();
+    }
+    public static class
 }

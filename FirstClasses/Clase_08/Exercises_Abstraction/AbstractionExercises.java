@@ -22,6 +22,10 @@ public class AbstractionExercises {
         }
 
         // 4. Crea una interfaz Drawable. Implementa las clases Square, y Triangle que muestren cómo se dibuja cada figura usando draw().
+        Square square = new Square();
+        Triangle triangle = new Triangle();
+        square.draw();
+        triangle.draw();
 
         // 5. Crea una clase abstracta Employee con un método calculateSalary(). Implementa FullTimeEmployee y PartTimeEmployee con lógica diferente para calcular el salario.
 

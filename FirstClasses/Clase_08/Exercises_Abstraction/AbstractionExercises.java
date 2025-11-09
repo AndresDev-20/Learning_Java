@@ -21,7 +21,7 @@ public class AbstractionExercises {
             animals[i].makeSound();
         }
 
-        // 4. Crea una interfaz Drawable. Implementa las clases Cuadrado, Square, y Triangle que muestren cómo se dibuja cada figura usando draw().
+        // 4. Crea una interfaz Drawable. Implementa las clases Square, y Triangle que muestren cómo se dibuja cada figura usando draw().
 
         // 5. Crea una clase abstracta Employee con un método calculateSalary(). Implementa FullTimeEmployee y PartTimeEmployee con lógica diferente para calcular el salario.
 
@@ -104,7 +104,7 @@ public class AbstractionExercises {
         // Métodos
         void draw();
     }
-    public static class Cuadrado implements Drawable {
+    public static class Square implements Drawable {
         @Override
         public void draw() {
             System.out.println("Se dibuja un cuadro con todos sus lados iguales");

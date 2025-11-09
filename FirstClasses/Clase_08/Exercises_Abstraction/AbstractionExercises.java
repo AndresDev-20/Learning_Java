@@ -110,4 +110,11 @@ public class AbstractionExercises {
             System.out.println("Se dibuja un cuadro con todos sus lados iguales");
         }
     }
+    public static class Triangle implements Drawable {
+        // Métodos
+        @Override
+        public void draw() {
+            System.out.println("Se dibuja un triangulo como su nombre lo dice tres lados");
+        }
+    }
 }

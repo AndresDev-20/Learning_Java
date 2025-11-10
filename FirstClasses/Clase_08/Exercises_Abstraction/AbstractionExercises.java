@@ -121,4 +121,19 @@ public class AbstractionExercises {
             System.out.println("Se dibuja un triangulo como su nombre lo dice tres lados");
         }
     }
+
+    // Quinto ejercicio
+    public static class FullTimeEmployee extends Employee {
+        // Atributos
+        double monthSalary;
+        // Constructor
+        public FullTimeEmployee(double monthSalary) {
+            this.monthSalary = monthSalary;
+        }
+        // Métodos
+        @Override
+        public double calculateSalary() {
+            return monthSalary;
+        }
+    }
 }

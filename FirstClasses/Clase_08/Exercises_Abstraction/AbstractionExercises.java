@@ -160,4 +160,11 @@ public class AbstractionExercises {
     public interface Movable {
         void move();
     }
+    public static class Car implements Movable {
+        // Métodos
+        @Override
+        public void move() {
+            System.out.println("");
+        }
+    }
 }

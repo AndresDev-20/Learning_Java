@@ -167,4 +167,11 @@ public class AbstractionExercises {
             System.out.println("El carro anda rodando");
         }
     }
+    public static class Robot implements Movable {
+        // Métodos
+        @Override
+        public void move() {
+            System.out.println("El robot es humanoide por lo que no roda sino que gatea");
+        }
+    }
 }

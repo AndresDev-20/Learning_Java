@@ -155,4 +155,9 @@ public class AbstractionExercises {
             return salary * hour;
         }
     }
+
+    // Sexto ejercicio
+    public interface Movable {
+        void move();
+    }
 }

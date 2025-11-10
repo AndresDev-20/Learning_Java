@@ -146,6 +146,9 @@ public class AbstractionExercises {
             this.hour = hour;
         }
         // Métodos
-
+        @Override
+        public double calculateSalary() {
+            return
+        }
     }
 }

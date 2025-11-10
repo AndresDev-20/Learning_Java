@@ -136,4 +136,16 @@ public class AbstractionExercises {
             return monthSalary;
         }
     }
+    public static class PartTimeEmployee extends Employee {
+        // Atributos
+        private double salary;
+        private int hour;
+        // Constructor
+        public PartTimeEmployee(double salary, int hour) {
+            this.salary = salary;
+            this.hour = hour;
+        }
+        // Métodos
+
+    }
 }

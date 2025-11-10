@@ -164,7 +164,7 @@ public class AbstractionExercises {
         // Métodos
         @Override
         public void move() {
-            System.out.println("");
+            System.out.println("El carro anda rodando");
         }
     }
 }

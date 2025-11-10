@@ -28,6 +28,10 @@ public class AbstractionExercises {
         triangle.draw();
 
         // 5. Crea una clase abstracta Employee con un método calculateSalary(). Implementa FullTimeEmployee y PartTimeEmployee con lógica diferente para calcular el salario.
+        FullTimeEmployee fullTimeEmployee = new FullTimeEmployee(2000.00);
+        PartTimeEmployee partTimeEmployee = new PartTimeEmployee(100.00, 5);
+        System.out.println(fullTimeEmployee.calculateSalary());
+        System.out.println(partTimeEmployee.calculateSalary());
 
         // 6. Crea una interfaz Movable con el método move(). Haz que las clases Car y Robot implementen ese método con comportamientos diferentes.
 
@@ -148,7 +152,7 @@ public class AbstractionExercises {
         // Métodos
         @Override
         public double calculateSalary() {
-            return
+            return salary * hour;
         }
     }
 }

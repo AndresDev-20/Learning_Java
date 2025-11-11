@@ -37,6 +37,7 @@ public class AbstractionExercises {
         Car car = new Car();
         Robot robot = new Robot();
         car.move();
+        robot.move();
 
         // 7. Crea una clase abstracta Appliance con método turnOn() y turnOff(). Implementa TV y WashingMachine con mensajes diferentes al encender y apagar.
 

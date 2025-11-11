@@ -34,6 +34,8 @@ public class AbstractionExercises {
         System.out.println(partTimeEmployee.calculateSalary());
 
         // 6. Crea una interfaz Movable con el método move(). Haz que las clases Car y Robot implementen ese método con comportamientos diferentes.
+        Car car = new Car();
+        car.move();
 
         // 7. Crea una clase abstracta Appliance con método turnOn() y turnOff(). Implementa TV y WashingMachine con mensajes diferentes al encender y apagar.
 

@@ -178,4 +178,15 @@ public class AbstractionExercises {
             System.out.println("El robot es humanoide por lo que no roda sino que gatea");
         }
     }
+
+    // Séptimo ejercicio
+    public static class TV extends Appliance {
+
+        // Métodos
+        @Override
+        public void turnOn() {
+            System.out.println("Enciende el Tv");
+        }
+
+    }
 }

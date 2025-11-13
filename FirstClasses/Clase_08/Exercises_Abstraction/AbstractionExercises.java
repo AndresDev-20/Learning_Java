@@ -199,6 +199,9 @@ public class AbstractionExercises {
         public void turnOn() {
             System.out.println("La lavadora se a encendido");
         }
-
+        @Override
+        public void turnOff() {
+            System.out.println("La lavadora se apago");
+        }
     }
 }

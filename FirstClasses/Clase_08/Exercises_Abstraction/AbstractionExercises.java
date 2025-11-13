@@ -210,4 +210,9 @@ public class AbstractionExercises {
             System.out.println("La lavadora se apago");
         }
     }
+
+    // Octavo ejercicio
+    public interface Flyable{
+
+    }
 }

@@ -192,4 +192,13 @@ public class AbstractionExercises {
             System.out.println("El Tv se apago");
         }
     }
+    public static class WashingMachine extends  Appliance {
+
+        // Métodos
+        @Override
+        public void turnOn() {
+            System.out.println("La lavadora se a encendido");
+        }
+
+    }
 }

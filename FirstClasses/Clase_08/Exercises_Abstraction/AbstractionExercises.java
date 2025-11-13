@@ -40,6 +40,10 @@ public class AbstractionExercises {
         robot.move();
 
         // 7. Crea una clase abstracta Appliance con método turnOn() y turnOff(). Implementa TV y WashingMachine con mensajes diferentes al encender y apagar.
+        TV tv = new TV();
+        WashingMachine washingMachine = new WashingMachine();
+        tv.turnOn();
+        tv.turnOff();
 
         // 8. Crea dos interfaces Flyable y Swimmable. Crea una clase Duck que implemente ambas interfaces y muestre cómo puede volar y nadar.
 

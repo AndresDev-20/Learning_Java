@@ -218,5 +218,9 @@ public class AbstractionExercises {
     public interface Swimmable {
         void swim();
     }
-    public static class
+    public static class Duck implements Flyable, Swimmable {
+        // Métodos
+        @Override
+
+    }
 }

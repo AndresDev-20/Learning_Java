@@ -221,6 +221,9 @@ public class AbstractionExercises {
     public static class Duck implements Flyable, Swimmable {
         // Métodos
         @Override
+        public void fly() {
+            System.out.println("La pata puede Volar");
+        }
 
     }
 }

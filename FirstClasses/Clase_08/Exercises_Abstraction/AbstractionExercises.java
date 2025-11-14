@@ -224,6 +224,9 @@ public class AbstractionExercises {
         public void fly() {
             System.out.println("La pata puede Volar");
         }
-
+        @Override
+        public void swim() {
+            System.out.println("La pata puede nadar");
+        }
     }
 }

@@ -212,7 +212,11 @@ public class AbstractionExercises {
     }
 
     // Octavo ejercicio
-    public interface Flyable{
-
+    public interface Flyable {
+        void fly();
     }
+    public interface Swimmable {
+        void swim();
+    }
+    public static class
 }

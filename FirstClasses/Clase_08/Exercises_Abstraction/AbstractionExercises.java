@@ -48,6 +48,8 @@ public class AbstractionExercises {
         washingMachine.turnOff();
 
         // 8. Crea dos interfaces Flyable y Swimmable. Crea una clase Duck que implemente ambas interfaces y muestre cómo puede volar y nadar.
+        Duck duck = new Duck();
+
 
         // 9. Crea una clase abstracta Document con el método print(). Luego crea PDFDocument y WordDocument, cada una con su forma de imprimir.
 

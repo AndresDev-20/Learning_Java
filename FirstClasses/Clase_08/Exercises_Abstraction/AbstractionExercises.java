@@ -236,7 +236,10 @@ public class AbstractionExercises {
     // Noveno ejercicio
     public static class PDFDocument extends Document {
         // Métodos
-
+        @Override
+        public void print() {
+            System.out.println("Imprime el documento en PDF");
+        }
     }
 
 }

@@ -232,4 +232,11 @@ public class AbstractionExercises {
             System.out.println("La pata puede nadar");
         }
     }
+
+    // Noveno ejercicio
+    public static class PDFDocument extends Document {
+        // Métodos
+
+    }
+
 }

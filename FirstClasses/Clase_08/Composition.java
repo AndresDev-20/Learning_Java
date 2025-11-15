@@ -15,6 +15,6 @@ public class Composition {
         }
     }
     public static class Car {
-
+        Engine engine = new Engine();
     }
 }

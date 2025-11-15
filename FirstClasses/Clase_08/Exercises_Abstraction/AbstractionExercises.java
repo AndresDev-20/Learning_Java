@@ -243,7 +243,10 @@ public class AbstractionExercises {
     }
     public static class WordDocument extends Document {
         // Métodos
-
+        @Override
+        public void print() {
+            System.out.println("Imprime el archivo de Word");
+        }
     }
 
 }

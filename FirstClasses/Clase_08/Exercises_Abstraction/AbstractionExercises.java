@@ -53,6 +53,7 @@ public class AbstractionExercises {
         duck.swim();
 
         // 9. Crea una clase abstracta Document con el método print(). Luego crea PDFDocument y WordDocument, cada una con su forma de imprimir.
+        PDFDocument pdfDocument = new PDFDocument();
 
         // 10. Crea una interfaz Payable con el método pay(). Luego implementa las clases Invoice y EmployeePayment, cada una mostrando un mensaje de pago diferente.
     }

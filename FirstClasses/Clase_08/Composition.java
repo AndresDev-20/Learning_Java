@@ -14,4 +14,7 @@ public class Composition {
             System.out.println("El motor se encendió");
         }
     }
+    public static class Car {
+
+    }
 }

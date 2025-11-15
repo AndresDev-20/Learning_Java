@@ -241,5 +241,9 @@ public class AbstractionExercises {
             System.out.println("Imprime el documento en PDF");
         }
     }
+    public static class WordDocument extends Document {
+        // Métodos
+
+    }
 
 }

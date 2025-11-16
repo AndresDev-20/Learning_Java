@@ -8,7 +8,6 @@ public class Composition {
 
     // Clases
     public static class Engine {
-
         // Métodos
         public String on() {
             return "el motor se encendió";

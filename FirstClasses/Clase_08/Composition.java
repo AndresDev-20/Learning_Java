@@ -10,11 +10,17 @@ public class Composition {
     public static class Engine {
 
         // Métodos
-        public void on() {
-            System.out.println("El motor se encendió");
+        public String on() {
+            return "el motor se encendió";
         }
     }
     public static class Car {
+        // Atributo con instancia
         Engine engine = new Engine();
+
+        // Métodos
+        public void startUp() {
+            System.out.println("El auto arranco con " + engine.on());
+        }
     }
 }

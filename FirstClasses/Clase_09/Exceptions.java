@@ -8,7 +8,7 @@ public class Exceptions {
             var result = 10 / 0;
             System.out.println(result);
         } catch (Exception e) {
-            System.out.println("Error en el código: " + e);
+            System.out.println("Error en el código: " + e.getMessage());
         }
         System.out.println("Fin");
 

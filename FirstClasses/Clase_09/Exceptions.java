@@ -24,6 +24,8 @@ public class Exceptions {
             System.out.println("Error en el código: " + e);
         } catch (NullPointerException e) {
             System.out.println("Ha ocurrido un null pointer mítico");
+        }catch (Exception e) {
+            System.out.println("Se ha producido un error no esperado");
         }
 
         System.out.println("Fin");

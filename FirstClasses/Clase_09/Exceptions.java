@@ -22,6 +22,8 @@ public class Exceptions {
             System.out.println(name.toLowerCase());
         } catch (ArithmeticException e) {
             System.out.println("Error en el código: " + e);
+        } catch (NullPointerException e) {
+            System.out.println("Ha ocurrido un null pointer mítico");
         }
 
         System.out.println("Fin");

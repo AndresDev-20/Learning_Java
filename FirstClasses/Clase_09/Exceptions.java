@@ -16,7 +16,9 @@ public class Exceptions {
         // try con multiples catch
         try {
             var result = 10 / 5;
+            String name = "Andres";
             System.out.println(result);
+            System.out.println(name.toLowerCase());
         } catch (ArithmeticException e) {
             System.out.println("Error en el código: " + e);
         }

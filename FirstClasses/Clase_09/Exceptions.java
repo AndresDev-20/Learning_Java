@@ -12,6 +12,15 @@ public class Exceptions {
         } catch (ArithmeticException e) {
             System.out.println("Error en el código: " + e);
         }
+
+        // try con multiples catch
+        try {
+            var result = 10 / 5;
+            System.out.println(result);
+        } catch (ArithmeticException e) {
+            System.out.println("Error en el código: " + e);
+        }
+
         System.out.println("Fin");
 
 

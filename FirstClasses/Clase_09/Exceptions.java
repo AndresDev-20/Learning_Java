@@ -38,6 +38,9 @@ public class Exceptions {
             System.out.println("Fin del bloque try-catch");
         }
 
+        // throw
+        TrowExample trowExample = new TrowExample();
+
         System.out.println("Fin");
 
 

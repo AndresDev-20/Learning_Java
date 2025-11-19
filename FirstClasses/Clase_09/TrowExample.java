@@ -3,7 +3,7 @@ package Clase_09;
 public class TrowExample {
 
     // Métodos o Funciones
-    public void checkAge(int age) {
+    public void checkAge(int age) throws IllegalArgumentException {
         if (age <= 18) {
             throw new IllegalArgumentException("Eres menor de edad");
         } else {

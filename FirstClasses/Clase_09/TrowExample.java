@@ -10,4 +10,7 @@ public class TrowExample {
             System.out.println("Eres mayor de edad");
         }
     }
+    public void checkScore(int score)  {
+
+    }
 }

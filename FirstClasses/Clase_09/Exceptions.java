@@ -43,7 +43,7 @@ public class Exceptions {
         try {
             trowExample.checkAge(17);
         } catch (IllegalArgumentException e) {
-            System.out.println("");
+            System.out.println("Error revisando la edad: " + e.getMessage());
         }
 
         System.out.println("Fin");

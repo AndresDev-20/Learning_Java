@@ -40,6 +40,11 @@ public class Exceptions {
 
         // throw
         TrowExample trowExample = new TrowExample();
+        try {
+            trowExample.checkAge(17);
+        } catch (IllegalArgumentException e) {
+            System.out.println("");
+        }
 
         System.out.println("Fin");
 

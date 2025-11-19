@@ -46,6 +46,9 @@ public class Exceptions {
             System.out.println("Error revisando la edad: " + e.getMessage());
         }
 
+        // Excepción personalizada
+
+
         System.out.println("Fin");
 
 

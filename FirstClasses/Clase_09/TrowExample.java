@@ -11,6 +11,8 @@ public class TrowExample {
         }
     }
     public void checkScore(int score) throws CustomException {
+        if (score < 0 || score > 100) {
 
+        }
     }
 }

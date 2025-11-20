@@ -47,7 +47,11 @@ public class Exceptions {
         }
 
         // Excepción personalizada
+        try {
+            trowExample.checkScore(300);
+        } catch (CustomException e) {
 
+        }
 
         System.out.println("Fin");
 

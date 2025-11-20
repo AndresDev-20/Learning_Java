@@ -48,9 +48,9 @@ public class Exceptions {
 
         // Excepción personalizada
         try {
-            trowExample.checkScore(300);
+            trowExample.checkScore(90);
         } catch (CustomException e) {
-
+            System.out.println("Error revisando la puntuación: "+ e.getMessage());
         }
 
         System.out.println("Fin");

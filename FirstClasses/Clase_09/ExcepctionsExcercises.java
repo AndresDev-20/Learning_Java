@@ -16,6 +16,8 @@ public class ExcepctionsExcercises {
 
 
         // 2. Crea un array de 3 elementos e intenta acceder al índice 5. Captura el ArrayIndexOutOfBoundsException.
+        String[] colors = {"Red", "Blue", "Green"};
+
 
         // 3. Crea una variable String nula e intenta imprimir su longitud. Maneja el NullPointerException.
 

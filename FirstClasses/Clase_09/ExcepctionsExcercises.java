@@ -7,6 +7,11 @@ public class ExcepctionsExcercises {
         // 1. Divide dos números almacenados en dos variables. Maneja la división por cero con try-catch.
         int numberOne = 10;
         int numberTwo = 0;
+        try {
+            int result = numberOne
+        } catch (ArithmeticException e) {
+            System.out.println("Error: " + e);
+        }
 
         // 2. Crea un array de 3 elementos e intenta acceder al índice 5. Captura el ArrayIndexOutOfBoundsException.
 

@@ -21,6 +21,7 @@ public class ExcepctionsExcercises {
             System.out.println(colors[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: " + e);
+            // System.out.println("Estás intentando acceder a una posición que no existe en el arreglo.");
         }
 
 

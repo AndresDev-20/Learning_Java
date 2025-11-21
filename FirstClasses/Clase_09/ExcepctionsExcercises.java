@@ -8,7 +8,7 @@ public class ExcepctionsExcercises {
         int numberOne = 10;
         int numberTwo = 0;
         try {
-            int result = numberOne
+            int result = numberOne / numberTwo;
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e);
         }

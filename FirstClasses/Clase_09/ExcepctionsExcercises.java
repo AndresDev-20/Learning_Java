@@ -9,9 +9,11 @@ public class ExcepctionsExcercises {
         int numberTwo = 0;
         try {
             int result = numberOne / numberTwo;
+            System.out.println("Resultado: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Error: " + e);
+            System.out.println("No se puede dividir por cero.");
         }
+
 
         // 2. Crea un array de 3 elementos e intenta acceder al índice 5. Captura el ArrayIndexOutOfBoundsException.
 

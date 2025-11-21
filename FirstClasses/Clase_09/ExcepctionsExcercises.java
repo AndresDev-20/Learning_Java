@@ -14,7 +14,6 @@ public class ExcepctionsExcercises {
             System.out.println("No se puede dividir por cero.");
         }
 
-
         // 2. Crea un array de 3 elementos e intenta acceder al índice 5. Captura el ArrayIndexOutOfBoundsException.
         String[] colors = {"Red", "Blue", "Green"};
         try {
@@ -24,8 +23,8 @@ public class ExcepctionsExcercises {
             // System.out.println("Estás intentando acceder a una posición que no existe en el arreglo.");
         }
 
-
         // 3. Crea una variable String nula e intenta imprimir su longitud. Maneja el NullPointerException.
+        String text = null;
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).
 

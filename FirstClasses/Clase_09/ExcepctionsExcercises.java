@@ -54,7 +54,7 @@ public class ExcepctionsExcercises {
             var newNumber = text;
             System.out.println(newNumber);
         } catch (NumberFormatException e) {
-            System.out.println();
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }

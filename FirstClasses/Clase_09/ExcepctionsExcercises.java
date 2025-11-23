@@ -33,7 +33,7 @@ public class ExcepctionsExcercises {
         }
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).
-        textToInt("124");
+        textToInt("aeiou");
 
         // 5. Escribe un programa con un bloque finally que se ejecute siempre, haya o no error.
 

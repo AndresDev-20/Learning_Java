@@ -28,7 +28,7 @@ public class ExcepctionsExcercises {
         try {
             text.length();
         } catch (NullPointerException e) {
-
+            System.out.println("Error: " + e);
         }
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).

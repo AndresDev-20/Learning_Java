@@ -29,6 +29,7 @@ public class ExcepctionsExcercises {
             text.length();
         } catch (NullPointerException e) {
             System.out.println("Error: " + e);
+            // System.out.println("Error: La variable text está en null, no se puede usar length().");
         }
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).

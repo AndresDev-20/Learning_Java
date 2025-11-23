@@ -36,6 +36,11 @@ public class ExcepctionsExcercises {
         textToInt("aeiou");
 
         // 5. Escribe un programa con un bloque finally que se ejecute siempre, haya o no error.
+        try {
+
+        } finally {
+            System
+        }
 
         // 6. Usa throw para lanzar un IllegalArgumentException si un número introducido es negativo.
 

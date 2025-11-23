@@ -34,6 +34,7 @@ public class ExcepctionsExcercises {
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).
 
+
         // 5. Escribe un programa con un bloque finally que se ejecute siempre, haya o no error.
 
         // 6. Usa throw para lanzar un IllegalArgumentException si un número introducido es negativo.
@@ -46,4 +47,6 @@ public class ExcepctionsExcercises {
 
         // 10. Implementa una clase LoginSystem que use una excepción personalizada LoginFailedException si el usuario o contraseña son incorrectos.
     }
+
+    // Cuarto ejercicio
 }

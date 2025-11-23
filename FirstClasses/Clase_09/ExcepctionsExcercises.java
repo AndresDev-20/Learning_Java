@@ -39,7 +39,7 @@ public class ExcepctionsExcercises {
         try {
 
         } finally {
-            System
+            System.out.println("Fin del bloque");
         }
 
         // 6. Usa throw para lanzar un IllegalArgumentException si un número introducido es negativo.

@@ -49,5 +49,7 @@ public class ExcepctionsExcercises {
     }
 
     // Cuarto ejercicio
-    public void
+    public void TextToInt() {
+
+    }
 }

@@ -52,6 +52,8 @@ public class ExcepctionsExcercises {
     public void TextToInt() {
         try {
 
+        } catch () {
+
         }
     }
 }

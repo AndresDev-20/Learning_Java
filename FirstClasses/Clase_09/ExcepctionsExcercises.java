@@ -51,7 +51,7 @@ public class ExcepctionsExcercises {
     // Cuarto ejercicio
     public void TextToInt(String text) {
         try {
-            var newNumber = text;
+            var newNumber = Integer.parseInt(text);
             System.out.println(newNumber);
         } catch (NumberFormatException e) {
             System.out.println("Error: " + e.getMessage());

@@ -52,9 +52,9 @@ public class ExcepctionsExcercises {
     public void TextToInt(String text) {
         try {
             var newNumber = text;
-
-        } catch () {
-
+            System.out.println(newNumber);
+        } catch (NumberFormatException e) {
+            System.out.println();
         }
     }
 }

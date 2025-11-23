@@ -33,7 +33,7 @@ public class ExcepctionsExcercises {
         }
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).
-
+        textToInt("124");
 
         // 5. Escribe un programa con un bloque finally que se ejecute siempre, haya o no error.
 
@@ -49,7 +49,7 @@ public class ExcepctionsExcercises {
     }
 
     // Cuarto ejercicio
-    public void TextToInt(String text) {
+    public static void textToInt(String text) {
         try {
             var newNumber = Integer.parseInt(text);
             System.out.println(newNumber);

@@ -50,6 +50,8 @@ public class ExcepctionsExcercises {
 
     // Cuarto ejercicio
     public void TextToInt() {
+        try {
 
+        }
     }
 }

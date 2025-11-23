@@ -49,8 +49,9 @@ public class ExcepctionsExcercises {
     }
 
     // Cuarto ejercicio
-    public void TextToInt() {
+    public void TextToInt(String text) {
         try {
+            var newNumber = text;
 
         } catch () {
 

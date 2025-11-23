@@ -25,6 +25,11 @@ public class ExcepctionsExcercises {
 
         // 3. Crea una variable String nula e intenta imprimir su longitud. Maneja el NullPointerException.
         String text = null;
+        try {
+            text.length();
+        } catch (NullPointerException e) {
+
+        }
 
         // 4. Escribe una función que transforma texto a número. Usa try-catch para manejar entradas no válidas (NumberFormatException).
 

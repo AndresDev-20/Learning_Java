@@ -38,6 +38,7 @@ public class ExcepctionsExcercises {
         // 5. Escribe un programa con un bloque finally que se ejecute siempre, haya o no error.
         try {
             var result = 10 / 0;
+            System.out.println(result);
         } finally {
             System.out.println("Fin del bloque");
         }

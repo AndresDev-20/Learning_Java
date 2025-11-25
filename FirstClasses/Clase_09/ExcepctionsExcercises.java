@@ -53,6 +53,14 @@ public class ExcepctionsExcercises {
         }
 
         // 7. Crea una clase TemperatureChecker que lanza una excepción personalizada si la temperatura es menor a -50 o mayor a 50.
+        TemperatureChecker temperatureChecker = new TemperatureChecker();
+
+        try {
+            temperatureChecker.temperature(11); // No lanza error
+            temperatureChecker.temperature(100); // Sí lanza error
+        } catch (NewCustomException e) {
+            System.out.println("Error capturado: " + e.getMessage());
+        }
 
         // 8. Crea un programa con varios bloques catch: uno para ArithmeticException, otro para ArrayIndexOutOfBoundsException.
 

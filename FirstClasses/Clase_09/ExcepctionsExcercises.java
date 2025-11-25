@@ -91,4 +91,6 @@ public class ExcepctionsExcercises {
             System.out.println("Error: " + e.getMessage());
         }
     }
+
+    // Noveno ejercicio
 }

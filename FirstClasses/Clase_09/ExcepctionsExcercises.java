@@ -63,6 +63,16 @@ public class ExcepctionsExcercises {
         }
 
         // 8. Crea un programa con varios bloques catch: uno para ArithmeticException, otro para ArrayIndexOutOfBoundsException.
+        try {
+            var res = 10 / 0;
+            System.out.println(res);
+        } catch (ArithmeticException e) {
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+
+        } finally {
+            System.out.println("Fin del bloque");
+        }
 
         // 9. Crea una función checkPassword(String pass) que lance una excepción si la contraseña es demasiado corta.
 

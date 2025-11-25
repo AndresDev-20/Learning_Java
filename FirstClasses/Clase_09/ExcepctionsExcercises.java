@@ -64,12 +64,15 @@ public class ExcepctionsExcercises {
 
         // 8. Crea un programa con varios bloques catch: uno para ArithmeticException, otro para ArrayIndexOutOfBoundsException.
         try {
-            var res = 10 / 0;
+            var res = 10 / 1;
+            String[] arr = {"Red", "Blue"};
             System.out.println(res);
+            System.out.println(arr[3]);
+
         } catch (ArithmeticException e) {
-
+            System.out.println("Error: " + e);
         } catch (ArrayIndexOutOfBoundsException e) {
-
+            System.out.println("Error: " + e);
         } finally {
             System.out.println("Fin del bloque");
         }

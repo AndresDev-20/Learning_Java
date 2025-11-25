@@ -44,6 +44,10 @@ public class ExcepctionsExcercises {
         }
 
         // 6. Usa throw para lanzar un IllegalArgumentException si un número introducido es negativo.
+        var number = 20;
+        if (number < 0) {
+            throw new IllegalArgumentException("Number is negative");
+        }
 
         // 7. Crea una clase TemperatureChecker que lanza una excepción personalizada si la temperatura es menor a -50 o mayor a 50.
 

@@ -37,7 +37,8 @@ public class ExcepctionsExcercises {
 
         // 5. Escribe un programa con un bloque finally que se ejecute siempre, haya o no error.
         try {
-            var result = 10 / 0;
+            //var result = 10 / 0;
+            var result = 10 / 1;
             System.out.println(result);
         } finally {
             System.out.println("Fin del bloque");
@@ -47,6 +48,8 @@ public class ExcepctionsExcercises {
         var number = 20;
         if (number < 0) {
             throw new IllegalArgumentException("Number is negative");
+        } else {
+            System.out.println("Number is positive");
         }
 
         // 7. Crea una clase TemperatureChecker que lanza una excepción personalizada si la temperatura es menor a -50 o mayor a 50.

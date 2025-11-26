@@ -85,11 +85,11 @@ public class ExcepctionsExcercises {
         }
 
         // 10. Implementa una clase LoginSystem que use una excepción personalizada LoginFailedException si el usuario o contraseña son incorrectos.
-        LoginSystem loginFailedException = new LoginSystem();
+        LoginSystem loginSystem = new LoginSystem();
         try {
-
-        } catch () {
-
+            loginSystem.login("Andres.de", "123");
+        } catch (LoginFailedException e) {
+            System.out.println(e);
         }
     }
 

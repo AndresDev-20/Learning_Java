@@ -93,4 +93,7 @@ public class ExcepctionsExcercises {
     }
 
     // Noveno ejercicio
+    public void checkPassword(String pass) {
+
+    }
 }

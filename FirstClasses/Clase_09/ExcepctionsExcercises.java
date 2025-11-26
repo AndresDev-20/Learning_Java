@@ -85,6 +85,12 @@ public class ExcepctionsExcercises {
         }
 
         // 10. Implementa una clase LoginSystem que use una excepción personalizada LoginFailedException si el usuario o contraseña son incorrectos.
+        LoginSystem loginFailedException = new LoginSystem();
+        try {
+
+        } catch () {
+
+        }
     }
 
     // Cuarto ejercicio

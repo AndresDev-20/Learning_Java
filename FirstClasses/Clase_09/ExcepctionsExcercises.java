@@ -93,7 +93,12 @@ public class ExcepctionsExcercises {
     }
 
     // Noveno ejercicio
-    public void checkPassword(String pass) {
+    public void checkPassword(String pass) throws CustomException {
+        if (pass.length() < 3) {
+            throw new CustomException("La contraseña es demaciado corta");
+        } else {
+            System.out.println("Contraseña correcta");
+        }
 
     }
 }

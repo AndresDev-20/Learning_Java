@@ -78,6 +78,11 @@ public class ExcepctionsExcercises {
         }
 
         // 9. Crea una función checkPassword(String pass) que lance una excepción si la contraseña es demasiado corta.
+        try {
+            checkPassword("An");
+        } catch (CustomException e) {
+            System.out.println(e.getMessage());
+        }
 
         // 10. Implementa una clase LoginSystem que use una excepción personalizada LoginFailedException si el usuario o contraseña son incorrectos.
     }
@@ -93,7 +98,7 @@ public class ExcepctionsExcercises {
     }
 
     // Noveno ejercicio
-    public void checkPassword(String pass) throws CustomException {
+    public static void checkPassword(String pass) throws CustomException {
         if (pass.length() < 3) {
             throw new CustomException("La contraseña es demaciado corta");
         } else {

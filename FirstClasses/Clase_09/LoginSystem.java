@@ -7,9 +7,9 @@ public class LoginSystem {
     // Metodo
     public void login(String user, String pass) throws LoginFailedException {
         if (user.equals(name) && pass.equals(password)) {
-            throw new LoginFailedException("Credenciales incorrectas");
-        } else {
             System.out.println("Logeado");
+        } else {
+            throw new LoginFailedException("Credenciales incorrectas");
         }
     }
 

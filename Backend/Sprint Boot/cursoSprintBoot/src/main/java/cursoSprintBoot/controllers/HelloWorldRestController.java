@@ -4,7 +4,7 @@ public class HelloWorldRestController {
 
     // Métodos
     public String helloWorld(){
-        return "Hello World";
+        return "Hello, World";
     }
 
 }

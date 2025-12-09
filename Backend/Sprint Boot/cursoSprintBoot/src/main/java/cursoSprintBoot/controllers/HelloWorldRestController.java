@@ -10,6 +10,7 @@ public class HelloWorldRestController {
     // Métodos
     @GetMapping({"/hello", "/hw", "/hola"})
     public String helloWorld(){
+        System.out.println("Solicitud ejecutada");
         return "Hello, World";
     }
 

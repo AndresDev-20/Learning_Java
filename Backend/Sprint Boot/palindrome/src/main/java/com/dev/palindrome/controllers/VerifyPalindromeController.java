@@ -1,4 +1,4 @@
-package com.dev.palindrome;
+package com.dev.palindrome.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class VerifyPalindromeController {
 
     // Métodos
-    @GetMapping("/verify-palindrome/{world}")
+    @GetMapping("/verify-palindrome/{w}")
     public String isPalindrome(@PathVariable String w){
         var word = w.replace(" ", "").toLowerCase();
         StringBuilder sb = new StringBuilder(word);

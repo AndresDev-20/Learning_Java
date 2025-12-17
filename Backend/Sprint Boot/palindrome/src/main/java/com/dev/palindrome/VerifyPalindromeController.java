@@ -9,13 +9,13 @@ public class VerifyPalindromeController {
 
     // Métodos
     @GetMapping("/verify-palindrome/{world}")
-    public String isPalindrome(@PathVariable String world){
-        StringBuilder sb = new StringBuilder(world);
+    public String isPalindrome(@PathVariable String word){
+        StringBuilder sb = new StringBuilder(word);
         sb.reverse();
-        if (world.equals(sb.toString())) {
-            return "La palabra " + world + " es un Palindrome";
+        if (word.equals(sb.toString())) {
+            return "La palabra " + word + " es un Palindrome";
         } else {
-            return "La palabra " + world + " No es un Palindrome";
+            return "La palabra " + word + " No es un Palindrome";
         }
     }
 }
